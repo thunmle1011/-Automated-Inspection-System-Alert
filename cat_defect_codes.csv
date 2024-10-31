@@ -1,0 +1,894 @@
+"DefectCodeId","DefectCode","Description","DefectGroup","ShortDescription","DefectOrigin","DefectStrLine","DefectEndLine"
+1,"A01       ","Camber (Slabs)","G99            ","Camber","AC   ",0,0
+2,"A02       ","Crowned (Dished) Edges","G99            ","Crown","AC   ",0,0
+3,"A03       ","Crowned (Dished) Surface","G99            ","Crown","AC   ",0,0
+4,"A04       ","Poor Flatness (Slabs)","G99            ","OOT Flatness","AC   ",0,0
+5,"A05       ","Differnet Width between Faces","G99            ","Different Width Between Faces","AC   ",0,0
+6,"A06       ","END CASTING BUCKLE/HEAT END DEPRESSION","G99            ","Casting Buckle","AC   ",0,0
+7,"A07       ","LONGITUDINAL CONTINUOUS CASTING BUCKLES(gutter)","G99            ","Casting Buckle","AC   ",0,0
+8,"A08       ","TRANSVERSE CASTING BUCKLES IN SLAB NO. 1","G99            ","Casting Buckle","AC   ",0,0
+9,"A09       ","Caster Startup In Manual","G99            ","Buckles from Grinding","AC   ",0,0
+10,"A10       ","Cracked Edges /  Hot Rolled  - Poor Chemistry","G99            ","Defective Cut","AC   ",0,0
+11,"A11       ","Defective Cut (Step)","G99            ","Defective Cut","AC   ",0,0
+12,"A12       ","Tapered Slab","G99            ","Defective Cut","AC   ",0,0
+13,"A13       ","OUT OF TOLERANCE IN LENGTH (SLABS)","G99            ","OOT in Length","AC   ",0,0
+14,"A14       ","OUT OF TOLERANCE IN WIDTH (SLABS)","G99            ","OOT in Width","AC   ",0,0
+15,"A15       ","OUT OF TOLERANCE IN THICKNESS (SLABS)","G99            ","OOT in Thickness","AC   ",0,0
+16,"A16       ","DIFFERENT THICKNESS BETWEEN SIDES","G99            ","Different Thickness Between Sides","AC   ",0,0
+17,"A17       ","LONGITUDINAL CRACKS IN THE CORNERS (FACES)","G99            ","Cracks","AC   ",0,0
+18,"A18       ","LONGITUDINAL CRACKS IN THE CORNERS (EDGES)","G99            ","Cracks","AC   ",0,0
+19,"A19       ","TRANSVERSE CRACKS IN THE CORNERS (FACES)","G99            ","Cracks","AC   ",0,0
+20,"A20       ","TRANSVERSE CRACKS IN THE CORNERS (EDGES)","G99            ","Cracks","AC   ",0,0
+21,"A21       ","DEEP CRACKS IN THE FACES","G99            ","Cracks","AC   ",0,0
+22,"A22       ","LIGHT CRACKS IN THE FACES","G99            ","Cracks","AC   ",0,0
+23,"A23       ","LONGITUDINAL CRACKS IN SLAB NO. 1","G99            ","Cracks","AC   ",0,0
+24,"A24       ","TRANSVERSE CRACKS FROM CONTINUOUS CASTING (FACES)","G99            ","Cracks","AC   ",0,0
+25,"A25       ","TRANSVERSE CRACKS FROM CONTINUOUS CASTING (EDGES)","G99            ","Cracks","AC   ",0,0
+26,"A26       ","CRACKS TO MID-POINT IN SLAB NO. 1","G99            ","Cracks","AC   ",0,0
+27,"A27       ","CRACKS TO MID-POINT BETWEEN SLABS","G99            ","Cracks","AC   ",0,0
+28,"A28       ","CRACKS TO MID-POINT IN LAST SLAB","G99            ","Cracks","AC   ",0,0
+29,"A29       ","STAR SHAPED CRACKS","G99            ","Cracks","AC   ",0,0
+30,"A30       ","CRACKS FROM CUTTING","G99            ","Cracks","AC   ",0,0
+31,"A31       ","CRACKS FROM GRINDING","G99            ","Cracks","AC   ",1510,1510
+32,"A32       ","CRACKS FROM FRAGILITY/SLABS GOT COLD/DBTT","G99            ","Cracks","ACL  ",0,0
+33,"A33       ","TRAPPED SLAG IN SLAB NO. 1","G99            ","Trapped Slag","AC   ",0,0
+34,"A34       ","TRAPPED SLAG IN OTHER SLABS","G99            ","Trapped Slag","AC   ",0,0
+35,"A35       ","ABNORMAL OSCILLATION MARKS","G99            ","Oscillation Marks","AC   ",0,0
+36,"A36       ","ROLL MARKS FROM CONTINUOUS CASTING","G99            ","Roll Mark","AC   ",0,0
+37,"A37       ","POROUS SLAB","G99            ","Porous Slab","AC   ",0,0
+38,"A38       ","LONGITUDINAL DEPRESSIONS / CENTER PANEL","G99            ","Porous Slab","AC   ",0,0
+39,"A39       ","BLEED-OFF (Wide Face)","G99            ","Bleed Off","AC   ",0,0
+40,"A40       ","MOLD POWDER ENTRAPMENT","G99            ","Material Cooling in Slab","AC   ",0,0
+41,"A41       ","TITANIUM INCLUSIONS","G99            ","Titanium Inclusions","AC   ",0,0
+42,"A42       ","FOLDS","G99            ","Folds","AC   ",0,0
+43,"A43       ","OVERLAPPING","G99            ","Overlapping","AC   ",0,0
+44,"A44       ","OXI-CUTTING FAILURE (HOLES)","G99            ","OXI Cutting Failure","AC   ",0,0
+45,"A45       ","POOR ROUGHNESS / MOLD POWDER FAILURE","G99            ","Poor Roughness","AC   ",0,0
+46,"A46       ","NO TAIL CROP TAKEN","G99            ","Pipe in End of Casting","AC   ",0,0
+47,"A47       ","EXCESS GRINDING","G99            ","Excess Grinding","AC   ",1510,1510
+48,"A48       ","BLEED-OFF (Narrow Face)","G99            ","Nails","AC   ",0,0
+49,"A49       ","RESIDUAL OSCILLATION MARKS","G99            ","Oscillation Marks","AC   ",0,0
+50,"A50       ","DIFFERENCE IN DIAGONALS - SLAB ONLY","G99            ","OOT in Squareness","AC   ",0,0
+51,"A51       ","BUCKLES FROM GRINDING (EDGES)","G99            ","Buckles from Grinding","AC   ",1510,1510
+52,"A52       ","DIFFERENCE IN WIDTHS BY AUTOMATIC CHANGE","G99            ","Difference in Widths","AC   ",0,0
+53,"A53       ","Scratches/Rub (no dug up material)","G99            ","Excess Cutting","AC   ",0,0
+54,"A54       ","Scratches/Rub (dug up material)","G99            ","Scratches","AC   ",0,0
+55,"A99       ","OTHER DEFECTS (UNKNOWN DEFECTS IN MELT SHOP)","G99            ","Unknown Defect","AC   ",0,0
+56,"B01       ","GAUGE SPIKES - HOT ROLLING","G72            ","Gauge Spikes - Hot Rolling","LC   ",2410,2410
+57,"B03       ","FOLDS (COILS)","G72            ","Folds","LC   ",2410,2410
+58,"B07       ","SLAB GRINDER GRAIN MARKS","G72            ","Slivers","LC   ",1510,1510
+59,"B10       ","EDGE BUR FROM HOT ROLLING","G72            ","Edge Bur","LC   ",2410,2410
+60,"B11       ","LATERAL STEP FROM HOT ROLLING","G72            ","Lateral Step","LC   ",2410,2410
+61,"B12       ","CRIMPED EDGE FROM HOT ROLLING","G72            ","Crimped edge","LC   ",2410,2410
+62,"B13       ","CHAIN FROM HOT ROLLING","G72            ","Chain","LC   ",2410,2410
+63,"B14       ","SCALE FROM HOT ROLLING (PLATE SHOP)","G72            ","Scale","LC   ",2410,2410
+64,"B32       ","OUT OF TOLERANCE IN WIDTH  MILL EDGE","G72            ","OOT in Width","LC   ",1310,2410
+65,"B33       ","OUT OF TOLERANCE IN THICKNESS (HOT COIL)","G72            ","OOT in Thickness-HR","LC   ",2410,2410
+66,"B39       ","IMPRINTS FROM FURNACE (HOT ROLLING)","G72            ","Imprints","LC   ",2410,2410
+715,"C94       ","No Center Buckle",NULL,NULL,"LC   ",2410,2410
+67,"B44       ","WATER STAINS FROM HOT ROLLING","G72            ","Stains","LC   ",2410,2410
+69,"B51       ","SLIPS/DIGS FROM HM -DIAGONAL/FROM TELESCOPE/OSCILL","G72            ","Slips","LC   ",2410,2410
+71,"B67       ","CAMBER (COILS)","G72            ","Camber","LC   ",2410,2410
+72,"B70       ","HEAVY EDGE HITS FROM SUPPLIER","G99            ","HEAVY EDGE HITS FROM SUPPLIER","LC   ",0,0
+73,"B99       ","BLACK COIL INSPECTION NOT POSSIBLE","G72            ","BLACK COIL INSPECTION NOT POSSIBLE","LC   ",0,0
+74,"C00       ","HOLES FROM HOT ROLLING","G72            ","Holes","LC   ",2410,2410
+75,"C01       ","HM DIGS/BOTH FACES/WIDTH/CONE SHAPE/WITH OUT SCALE","G71            ","Digs","LC   ",2410,2410
+76,"C02       ","HM DIGS/BOTH FACES/WIDTH/CONE SHAPE/ WITH SCALE","G72            ","Digs","LC   ",2410,2410
+77,"C03       ","WRINKLES FROM HOT ROLLING","G72            ","Wrinkles","LC   ",2410,2410
+78,"C04       ","SLIVERS TYPE B (EDGES)(MELT SHOP ORIGIN)","G71            ","Slivers","AC   ",1310,1320
+80,"C06       ","SLIVERS TYPE C (CENTER)","G71            ","Slivers","AC   ",1310,1320
+81,"C07       ","SLIVERS TYPE A (WIDTH)","G71            ","Slivers","AC   ",1310,1320
+82,"C08       ","SLIVERS EDGES (HOT MILL ORIGIN)Heat+Soak >200(aust","G72            ","Slivers","LC   ",2410,2410
+83,"C09       ","CENTER BUCKLE FROM HOT ROLLING","G72            ","Center Buckle","LC   ",2410,2410
+84,"C10       ","CRACKED EDGES from HOT rolling","G72            ","Cracked Edges","LC   ",2410,2410
+85,"C11       ","DOUBLED EDGE FROM HOT ROLLING","G72            ","Doubled Edge","LC   ",2410,2410
+86,"C12       ","OSCILLATION INCLUSIONS/OPEN/FLAKY/LAM LIKE","G71            ","Oscillation Slivers","AC   ",1310,1320
+87,"C13       ","EDGE WIRE FROM HOT ROLLING","G72            ","Edge Wore","LC   ",2410,2410
+88,"C14       ","Residual Scale from Black Rolling (APC & Fin only)","G70            ","Scale","VAR  ",0,0
+89,"C18       ","SEAMS (less than 1.5)","G71            ","Seams (< 1.5)","AC   ",1310,1320
+91,"C21       ","LAMINATIONS TYPE B (EDGES)","G71            ","Laminations","AC   ",1310,1320
+92,"C22       ","LAMINATIONS TYPE NO. 1 (1ST OR LAST SLAB TUNDISH)","G71            ","Laminations","AC   ",1310,1320
+93,"C23       ","LAMINATIONS TYPE C (CENTER)","G71            ","Laminations","AC   ",1310,1320
+94,"C24       ","LAMINATIONS TYPE A (WIDTH)","G71            ","Laminations","AC   ",1310,1320
+95,"C25       ","SEAMS (greater than 1.5)","G71            ","Lam: Thin Line (> 1.5)","AC   ",1310,1320
+96,"C28       ","LATERAL SEAMS TYPE 1 (EDGES)","G72            ","Lateral Edge Seams","LC   ",2410,2410
+97,"C29       ","LATERAL FRINGE  W/ Scale","G72            ","Lateral Fringe","LC   ",2410,2410
+98,"C30       ","TITANIUM STREAK","G71            ","Titanium Inclusions","AC   ",0,0
+99,"C39       ","IMPRINTS FROM REFACTORY (HOT ROLLING)","G72            ","Imprints","LC   ",2410,2410
+100,"C40       ","TITANIUM INCLUSIONS","G71            ","Titanium Inclusions","AC   ",0,0
+101,"C41       ","INCRUSTATIONS FROM HOT ROLLING","G72            ","Incrustations","LC   ",2410,2410
+102,"C42       ","ROLL MARK DC PINCH ROLL BOTTOM  (60-62)","G72            ","HR Work Roll Mark-PR","LC   ",2410,2410
+103,"C43       ","ROLL MARK DC PINCH ROLL TOP (110-111)","G72            ","HR Work Roll Mark-PR","LC   ",2410,2410
+104,"C44       ","Grease Stains from Pickling PMP ONLY!","G72            ","PMP Stains","LC   ",2410,2410
+107,"C47       ","EDGE WAVES FROM HOT ROLLING","G72            ","Edge Waves-HR","LC   ",2410,2410
+108,"C50       ","WORK ROLL STOP FROM HOT ROLLING","G72            ","Hot Mill Roll Stop","LC   ",2410,2410
+109,"C51       ","SLIPS/DIGS FROM HM - H&T ONLY - NO PATTERN","G72            ","Slips","LC   ",2410,2410
+110,"C52       ","DENTS FRM POOR COOLING HM (WIDTH)CONFIRM IN ENTRY",NULL,NULL,"LC   ",2410,2410
+111,"C57       ","LINE SCRATCHES FR0M HOT ROLLING TYPE 2","G72            ","Scratches","LC   ",2410,2410
+112,"C60       ","UNIFORM ROUGHNESS(NON STREAKY) WIDTH","G72            ","Superficial Roughness","LC   ",2410,2410
+114,"C62       ","STREAKY ROUGHNESS","G72            ","Roughness","LC   ",2410,2410
+115,"C63       ","Pierce Hole (PMP)",NULL,NULL,"LC   ",0,0
+117,"C67       ","POOR EDGE STRAIGHTNESS FROM HOT ROLLING","G72            ","Camber","LC   ",2410,2410
+118,"C68       ","DEFECTIVE CUTTING (THICK PLATE SHOP)","G72            ","Defective Cut","LC   ",0,0
+119,"C77       ","BROKEN EDGE FROM HOT ROLLING","G72            ","Broken Edge","LC   ",2410,2410
+120,"D11       ","TRUMPET Cause by HRM defect (D12)","G72            ","Trumpet","LC   ",2410,4600
+121,"D12       ","DEFECTIVE EDGE FROM HOT ROLLING","G72            ","Defective Edge","LC   ",2410,2410
+122,"D14       ","SCALE MARKS  - MS Origin","G72            ","Scale Marks","AC   ",1310,1310
+123,"D39       ","IMPRINTS FROM ROUGH./FINISH. MILL (HOT ROLLING)","G72            ","Imprints","LC   ",2410,2410
+124,"D51       ","ROLL MARK / SCRATCH     HR TABLE ROLLS  INT FACE","G72            ","Slips","LC   ",2410,2410
+125,"D57       ","Scratces from Edging: Ht Mll-2 from Edge or Less","G72            ","Scratches","LC   ",2410,2410
+126,"E11       ","WEDGE FROM HOT ROLLING","G72            ","Wedge","LC   ",2410,2410
+127,"E39       ","IMPRINTS FROM FLATTENER (THICK PLATE SHOP)","G72            ","Imprints","LC   ",0,0
+129,"F00       ","HOLE FROM COLD ROLLING","G70            ","Holes","VAR  ",0,0
+130,"F01       ","SCRATCHES CAUSED BY POOR COLD ROLLING SHAPE","G70            ","Scratches","ZM   ",3610,3640
+131,"F02       ","SCRATCHES CAUSED BY POOR HOT ROLLING SHAPE","G70            ","Scratches","LC   ",2410,2410
+132,"F03       ","CRIMPS FROM COLD AP/ BA LINE CRASH","G70            ","Crimps","RF   ",3310,3310
+133,"F04       ","CRIMPS/DEF EDGE FROM APH LINE CRASH","G70            ","Crimps","RC   ",3320,3320
+134,"F08       ","CRIMPED EDGE FROM SIDE GUIDES","G70            ","Crimps","VAR  ",9500,9500
+135,"F09       ","CENTER BUCKLE FROM COLD ROLLING","G70            ","Center Buckle","ZM   ",3620,3620
+136,"F10       ","DAMAGED EDGE FROM SEPERATOR RING","G70            ","Damage edge from seperator ring","VAR  ",9500,9500
+137,"F11       ","TRUMPET (CAUSE FROM AP DEFECT)","G70            ","Defective Edge","RCF  ",3310,3340
+138,"F12       ","CRIMPED EDGE FROM COLD ROLLING (ZM, H-AP, C-AP)","G70            ","Crimps","VAR  ",9500,9500
+139,"F13       ","CHAIN FROM COLD ROLLING","G70            ","Chain","ZM   ",3610,3650
+140,"F14       ","SCALE FROM COLD ROLLING TYPE 1","G70            ","Scale","RC   ",3310,3340
+141,"F15       ","SCALE - SEEN MICROSCOPE ONLY - BA ONLY","G70            ","Burnt Carbon","RC   ",3310,3340
+142,"F16       ","PAPER CORROSION","G70            ","Paper Corrosion","VAR  ",9500,9500
+143,"F17       ","ROLLED SCALE - TYPE 2 FROM HOT ROLLING","G70            ","Edge Bur","LC   ",0,0
+144,"F18       ","ROLLED SCALE","G70            ","Rolled Scale","RC   ",3320,3320
+145,"F19       ","CROSS BUCKLES FROM S.K.P.","G70            ","Cross Buckles","SKP  ",4120,4120
+146,"F20       ","PAPER PATTERN - RANDOM / WIDTH","G70            ","Paper Pattern","ZM   ",3610,3650
+147,"F21       ","BENDING","G70            ","Bending","VAR  ",9500,9500
+148,"F22       ","AGING FROM Z.M.","G70            ","Aging","ZM   ",3610,3650
+149,"F23       ","HERRING BONE","G70            ","Herring Bone","ZM   ",3610,3650
+150,"F24       ","EXCESS PICKLING","G70            ","Excess Pickling","RF   ",3310,3340
+151,"F25       ","EXCESS ANNEALING","G70            ","Excess Annealing","RF   ",3310,3340
+152,"F26       ","LUDERS LINES","G70            ","Luders Lines","SKP  ",4120,4120
+153,"F27       ","Cracked Earth","G70            ","Roll Mark","VAR  ",0,0
+154,"F32       ","OUT OF TOLERANCE IN WIDTH -Mill Edge Cold MIll","G70            ","OOT in Width","VAR  ",3610,3660
+155,"F33       ","OUT OF TOLERANCE IN THICKNESS (SHEET AND COIL)","G70            ","OOT in Thickness-CR","ZM   ",3610,3650
+156,"F34       ","OUT OF TOLERANCE IN LENGTH (SHEET)","G70            ","OOT in Length","CS   ",4210,4220
+158,"F36       ","SHOT BLAST MARKS","G70            ","Shot Blast","RC   ",3320,3320
+159,"F37       ","DARK STREAKS IN POLISH","G70            ","Stains","GP   ",3510,3510
+160,"F38       ","PROPELLER","G70            ","Propeller","ZM   ",3610,3650
+161,"F40       ","INSUFFICIENT POLISH FROM EDGE CRIMPS/POOR SHAPE","G70            ","Poor Polish","VAR  ",3510,3520
+162,"F41       ","PAPER INCRUSTATIONS","G70            ","Paper Pattern","VAR  ",9500,9500
+163,"F42       ","ROUGH POLISH (MUST NOTE RA MEASUREMENT)","G70            ","Poor Polish","GP   ",3510,3520
+164,"F43       ","Scrubber Brush Wear Pattern: Edges or Center APHot","G70            ","Surface roughness","RCF  ",3340,3340
+165,"F44       ","OIL STAINS","G70            ","Stains","ZM   ",3610,3650
+166,"F45       ","SCRUBBER BRUSH MARKS FROM HOT AND/OR COLD AP","G70            ","Brush Marks","RCF  ",3310,3340
+167,"F46       ","NOTCHES","G70            ","Notches","VAR  ",9500,9500
+168,"F47       ","EDGE WAVES FROM CR (MUST NOTE HEIGHT AND PITCH)","G70            ","Edge Waves","ZM   ",3310,3310
+169,"F48       ","ROLLED PAPER TYPE 1","G70            ","Rolled Paper","ZM   ",3610,3620
+170,"F49       ","BURNT PAPER","G70            ","Burnt Paper","ZM   ",3610,3650
+171,"F50       ","FLATTENER MARK FROM C.S.","G70            ","Flattener Mark","CS   ",4210,4220
+172,"F51       ","ROLLED DIGS FROM THE Z-MILL","G70            ","Rolled Digs","ZM   ",3610,3650
+173,"F53       ","ORANGE PEEL (SKIN)","G70            ","Orange Peel","SKP  ",4120,4120
+174,"F54       ","OUT OF TOLERANCE IN FLATNESS (SHEET)","G70            ","OOT in Flatness","CS   ",4210,4220
+175,"F55       ","POOR ANNEALING","G70            ","Poor Annealing","RCF  ",3310,3340
+176,"F56       ","POOR PICKLING","G70            ","Poor Pickling","RCF  ",3310,3340
+177,"F57       ","EXFOLIATION","G70            ","Exfoliation","VAR  ",3310,3340
+178,"F58       ","BURS OR LIP FROM SHEAR","G70            ","Burrs","VAR  ",9500,9500
+179,"F59       ","RIBBING","G70            ","Ribbing","VAR  ",9500,9500
+180,"F60       ","SUPERFICIAL ROUGHNESS FROM COLD ROLLING","G70            ","Superficial Roughness","RCF  ",9500,9500
+181,"F61       ","TILE","G70            ","Tile","ZM   ",3610,3650
+182,"F62       ","TEMPER COLOR - BA substrate only (Yellow/Gold)","G70            ","Poor Color","VAR  ",9500,9500
+183,"F64       ","WORK ROLL CHATTER MARK FROM Z.M.","G70            ","ZM Chatter","ZM   ",3610,3650
+184,"F65       ","ROLL CHATTER FROM Z-MILL, OTHER THAN WR","G70            ","ZM Chatter","ZM   ",3610,3650
+185,"F66       ","OUT OF TOLERANCE IN DIAGONALS (SHEETS)","G70            ","OOT in Diagonals","CS   ",4210,4220
+186,"F68       ","NO SKIN PASS (GIVE REASON)","G70            ","No Skin Pass","SKP  ",4120,4120
+187,"F69       ","ROLL MARK FROM LEVELLER(SANDING SCRATCHES)","G70            ","Leveler Roll Mark","CS   ",4210,4220
+188,"F70       ","ROLL MARK FROM LEVELLER","G70            ","Leveler Roll Mark","CS   ",4210,4220
+191,"F77       ","BROKEN EDGE FROM COLD ROLLING","G70            ","Broken Edge","VAR  ",9500,9500
+192,"F78       ","ROLL MARK FROM COOLING CHAMBER COLD AP (25)","G70            ","Roll Mark","RF   ",3310,3310
+193,"F79       ","LEVELLER ROLL STOP","G70            ","Leveller Roll Stop","CS   ",4210,4220
+194,"F80       ","ACID STAINS FROM HAP TYPE 1","G70            ","Stains","RC   ",3320,3320
+197,"F83       ","ACID STAINS FROM HAP TYPE 2","G70            ","Stains","RC   ",3320,3320
+198,"F84       ","WATER STAINS FROM HAP TYPE 3","G70            ","Stains","RC   ",3320,3320
+199,"F85       ","KNIFE MARK Finish Lines (CHIPS/CHATTER NOTED)","G70            ","Knife Mark","SL   ",4210,4320
+200,"F86       ","LOSS OF CUT","G70            ","Knife Mark","SL   ",4210,4320
+201,"F87       ","STAINS TYPE 3 (Comet Shaped)","G70            ","Stains","RF   ",3610,3650
+202,"F88       ","STAIN FROM BURNT DEBRIS(DIRT)w/or wo/pits","G70            ","Stains","VAR  ",3310,3310
+203,"F89       ","EDGE DAMAGE FORM CRANE","G70            ","Crane Damage","VAR  ",9500,9500
+204,"F90       ","CREASE FROM SLITTER HEAD","G70            ","Crease from slitter head","SL   ",4210,4320
+205,"F91       ","DENTS FROM HANDLING","G70            ","Dents","VAR  ",9500,9500
+206,"F92       ","DENTS (DAMAGE) ON CLAIM MATERIAL.","G70            ","Dents","VAR  ",9500,9500
+207,"F93       ","EDGE DAMAGE FROM TELESCOPE/OSCILLATION CORRECTION","G70            ","Edge Damage","LC   ",2410,2410
+208,"H00       ","BELT MARK FROM GP","G70            ","Belt Mark from GP","GP   ",3510,3520
+209,"H01       ","SCRATCHES FROM GP","G70            ","Scratches","GP   ",3510,3520
+210,"H02       ","SCRATCHES FROM G.P. BILLY ROLLS","G70            ","Scratches","GP   ",3510,3520
+211,"H03       ","WRINKLES FROM Z.M.","G70            ","Wrinkles","ZM   ",3610,3650
+212,"H04       ","STAINS FROM GP","G76            ","Stains","GP   ",3510,3520
+213,"H05       ","DENTS FROM GP","G70            ","Dents","GP   ",3510,3520
+214,"H06       ","DENTS FROM COLD ANNEALING & PICKLING LINE","G70            ","Dents","RF   ",3310,3310
+215,"H07       ","DENTS FROM SL","G70            ","Dents","SL   ",4210,4320
+216,"H08       ","DENTS FROM BANDING","G70            ","Dents","VAR  ",9500,9500
+217,"H09       ","DENT FROM CS LINE","G70            ","Dents","CS   ",4210,4210
+218,"H10       ","DENT FROM FOREIGN OBJECT FALLING INTO THE COIL","G70            ","Dents","VAR  ",9500,9500
+219,"H11       ","CONVECTOR MARKS","G70            ","Convector Marks","BL   ",0,0
+220,"H12       ","STAINS FROM GP LINE STOP",NULL,NULL,"GP   ",3510,3520
+221,"H13       ","BELT STOPS FROM GP ACROSS WIDTH","G70            ","GP Belt Stops","GP   ",3510,3520
+222,"H14       ","SCALE FRM EDGE WAVES(NOTE C47 MEASURE)","G70            ","Scale","LC   ",3320,3320
+223,"H15       ","DENTS FROM THE LEADER STRIP WELD","G70            ","Dents","VAR  ",9500,9500
+224,"H22       ","AGING FROM S.K.P.","G70            ","Wrinkles","SKP  ",4120,4120
+225,"H25       ","EXCESS ANNEALING WITH SCALE","G70            ","Excess Annealing","RF   ",3310,3340
+226,"H39       ","IMPRINTS FROM S.K.P.","G70            ","SKP Roll Mark","SKP  ",4120,4120
+227,"H44       ","ACID STAINS","G70            ","Stains","RF   ",3310,3340
+228,"H45       ","Z-MILL PIMPLE TYPE A  - OBSOLETE   DO NOT USE","G70            ","Roll Mark","ZM   ",3610,3650
+229,"H46       ","Z-MILL PIMPLE TYPE B  - OBSOLETE   DO NOT USE","G70            ","Roll Mark","ZM   ",3610,3650
+230,"H47       ","Z-MILL PIMPLE TYPE C  - OBSOLETE   DO NOT USE","G70            ","Roll Mark","ZM   ",3610,3650
+231,"H48       ","Z-MILL PIMPLE        (11 ZM1/ZM2/ZM5  7 ZM3/ZM4)","G70            ","Roll Mark","ZM   ",3610,3650
+232,"H49       ","Z-MILL PIMPLE TYPE E  - OBSOLETE   DO NOT USE","G70            ","Roll Mark","ZM   ",3610,3650
+233,"H50       ","WORK ROLL STOP FROM Z.M.","G70            ","Z-Mill Roll Stop","ZM   ",3610,3650
+235,"H52       ","INSUFFICIENT REDUCTION AT THE Z-MILL","G70            ","Insufficient Reduction","ZM   ",3610,3650
+236,"H56       ","LINE SCRATCHES FROM THE ENTRY AT COLD AP","G70            ","Scratches","RF   ",3310,3310
+237,"H57       ","LINE SCRATCHES FROM ENTRY LOOP CAR AT COLD AP","G70            ","Scratches","RF   ",3310,3310
+238,"H58       ","LINE SCRATCHES FROM EXIT LOOP CAR AT COLD AP","G70            ","Scratches","RF   ",3310,3310
+239,"H59       ","LINE SCRATCHES FROM ALKALI DRYER AT COLD AP","G70            ","Scratches","RF   ",3310,3310
+240,"H60       ","LINE SCRATCHES FROM FURNACE DRYER AT COLD AP","G70            ","Scratches","VAR  ",3310,3310
+241,"H61       ","LINE SCRATCHES FROM PICKLING DRYER AT COLD AP","G70            ","Scratches","RF   ",3310,3310
+242,"H62       ","LINE SCRATCHES FROM FURNACE EXIT AT COLD AP","G70            ","Scratches","RF   ",3310,3310
+243,"H63       ","CHATTER - AP1/AP3 SKIN PASS","G70            ","SKP Chatter","RF   ",3310,3330
+244,"H64       ","ZONE WITHOUT POLISH (NOTE FOOTAGE)","G70            ","Without Polish","GP   ",3510,3520
+245,"H65       ","GP CHATTER (Straight/Wide)","G70            ","GP Chatter","GP   ",3510,3520
+246,"H66       ","VIBRATION MARK FROM THE FINISHING LINES","G70            ","Vibration Mark - Finishing Line","SL   ",4210,4320
+247,"H67       ","IRREGULAR SURFACE (Distortion)","G70            ","Distortion Chatter","RF   ",3310,3310
+248,"H68       ","CHATTER FROM SKP #2","G70            ","SKP Chatter","SKP  ",4120,4120
+249,"I43       ","WORK ROLL MARK FROM ZMILL(FISSURE) (11)","G70            ","Roll Mark","ZM   ",3610,3620
+250,"I44       ","EMULSION STAINS FROM SKIN PASS","G70            ","Stains","SKP  ",4120,4120
+251,"I45       ","OTHER ROLL MARK FROM Z-MILL (KNICK MARK)","G70            ","Roll Mark","ZM   ",3630,3660
+253,"I47       ","ROLLMARK FROM Z-MILL DEFLECTOR ROLL","G70            ","Roll Mark","ZM   ",3610,3660
+254,"I48       ","EMULSION STAINS FROM SKP#2","G70            ","Rolled Paper","SKP  ",4120,4120
+255,"I49       ","STAINS FROM Z-MILL WORK ROLLS","G70            ","Roll Mark","ZM   ",3610,3660
+256,"I51       ","SLIPS FROM GP LINE","G70            ","Slips","GP   ",3510,3520
+257,"I53       ","SCRATCHES FROM Z-MILL (WIPER SCRATCHES)","G70            ","Scratches","ZM   ",3610,3620
+258,"I54       ","INSERTION MARK FROM Z-MILL WORK ROLL    (11)","G70            ","Roll Mark","ZM   ",3610,3620
+259,"I60       ","SUPERFICIAL ROUGH. FROM COLD ROLLING W/ COLD SCALE","G70            ","Superficial Roughness","VAR  ",9500,9500
+260,"J02       ","SCRATCHES FROM COLD ANNEALING AND PICKLING","G70            ","Scratches","RF   ",3310,3310
+261,"J03       ","COOLING (QUENCHING) WRINKLES /  DENTS","G70            ","Wrinkles","RF   ",3310,3310
+262,"J11       ","LATERAL STEP FROM COLD ROLLING","G70            ","Lateral Step","ZM   ",3610,3620
+263,"J44       ","STAINS FROM ALKALI SECTION","G70            ","Stains","RF   ",3330,3410
+264,"J45       ","WORK ROLL MARKS FROM SKP (106)","G70            ","SKP Roll Mark","RF   ",3310,3310
+265,"J46       ","SKP ROLL MARK, FROM SKP EMULSION/DEBRIS  AP1","G70            ","SKP Roll Mark","RF   ",3310,3310
+266,"J47       ","WORK ROLL MARKS FROM SKP #2 (108)","G70            ","SKP Roll Mark","SKP  ",4120,4120
+267,"J48       ","WORK ROLL MARKS FROM AP3/BAL (54)","G70            ","SKP Roll Mark","RF   ",3330,3410
+268,"J49       ","WORK ROLL MARK FROM SKP DEBRIS SKP #2","G70            ","SKP Roll Mark","SKP  ",4120,4120
+269,"J50       ","WORK ROLL STOP FROM SKP (All SKP LINES)","G70            ","SKP Roll Stop","SKP  ",3310,3310
+270,"J51       ","WORK ROLL MARK FROM SKP DEBRIS AP3","G70            ","SKP Roll Mark","SKP  ",3330,3410
+271,"J57       ","LINE SCRATCHES FROM FINISH LINES","G70            ","Scratches","SL   ",4210,4340
+272,"J58       ","BACKING BEARING MARKS FROM LEVELLER","G70            ","Backing Bearing Mark Leveller","CS   ",4210,4220
+273,"J59       ","GREASE STAIN FROM LEVELLER","G70            ","Stains","CS   ",4210,4220
+274,"K02       ","SCRATCHES FROM BAL.","G70            ","Scratches","RF   ",3410,3410
+275,"K03       ","PAPER WRINKLES","G70            ","Paper Pattern","VAR  ",9500,9500
+276,"K04       ","CREASES IN GENERAL FROM COLD ROLLING (EDGES)","G70            ","Creases","VAR  ",9500,9500
+277,"K41       ","RUBBER INCRUSTATIONS","G70            ","Rolled Rubber","RC   ",3310,3320
+278,"K45       ","BA FURNACE ROLL STAIN/MARK   SEALER ROLL","G70            ","Gear Mark","RF   ",3410,3410
+280,"K57       ","MULTIPLE LINE SCRATCHES FROM S.K.P.","G70            ","Scratches","SKP  ",4120,4120
+281,"L02       ","LINE SCRATCHES FROM Z-MILL","G70            ","Scratches","ZM   ",3610,3650
+282,"L03       ","WRINKLES FROM S.K.P. 3310","G70            ","Wrinkles","SKP  ",3310,3310
+283,"L11       ","GREASE STAINS FROM HOT AP","G70            ","Seperator Marks","RC   ",3320,3320
+284,"L39       ","LEVELLER ROLL CAP ENTRY MARK","G70            ","Roll Mark","RF   ",3310,3310
+285,"L40       ","PINCH ROLL CAP ENTRY MARK","G70            ","Roll Mark","RF   ",3310,3310
+286,"L41       ","ROLLED BUGS FROM ANNEALING AND PICKLING","G70            ","Rolled Bugs","VAR  ",0,0
+287,"L44       ","BURNER STAINS (CLOUDY NO DEFINITION)","G70            ","Stains","RF   ",3310,3310
+288,"L45       ","FURNACE ROLL MARK FROM HOT AND/OR COLD AP (27-32)","G70            ","Roll Mark","RCF  ",3310,3320
+289,"L46       ","FLATNESS ROLL MARK FROM COLD AP (42)","G70            ","Roll Mark","RF   ",3310,3310
+290,"L47       ","BRIDLE ROLL MARK AP4-255/1-152/2-225/3-99","G70            ","Roll Mark","RCF  ",3310,3320
+291,"L48       ","SQUEEGEE RM FROM HOT AND/OR COLD AP (35)AP3 =31","G70            ","Roll Mark","RCF  ",3310,3320
+292,"L49       ","IMMERSION ROLL MARK FROM HOT AND/OR COLD AP  (95)","G70            ","Roll Mark","RCF  ",3310,3320
+293,"L50       ","TENSIOMETER ROLL MARK FROM HOT AND/OR COLD AP(31)","G70            ","Roll Mark","RCF  ",3310,3320
+295,"L55       ","ROLL MARK/SCALE BREAKER AP4 (9)","G70            ","Roll Mark","RCF  ",3340,3340
+296,"L57       ","LINE SCRATCHES FROM HOT ANNEALING AND PICKLING","G70            ","Scratches","RC   ",3340,3340
+297,"L58       ","ANTI-CRIMPING ROLL MARK FROM COLD AP (36)","G70            ","Roll Mark","RF   ",3310,3310
+298,"L59       ","SCRATCHES FROM BRUSHES AT HAP OR CAP","G70            ","Scratches","RC   ",3310,3320
+299,"L60       ","Flatness Roll Mark SKP II (55)","G70            ","SKP Roll Mark","SKP  ",4120,4120
+300,"L61       ","Anti Crimping Roll Mark SKP II (31)","G70            ","SKP Roll Mark","SKP  ",4120,4120
+301,"L62       ","Other Roll Mark SKP II","G70            ","SKP Roll Mark","SKP  ",4120,4120
+302,"M44       ","SALT WATER STAINS","G99            ","Stains","VAR  ",0,0
+303,"M48       ","ROLLED RUBBER FROM HOT AND/OR COLD AP","G70            ","Rolled Rubber","RC   ",3310,3320
+304,"M51       ","DIG FROM AN OBJECT FALLING IN THE COIL","G70            ","Dig from Object","RF   ",9500,9500
+305,"N44       ","SLUDGE STAINS  (brown)","G70            ","Stains","RF   ",3310,3330
+306,"N45       ","POLISH GRAIN MARKS","G70            ","WILD GRAIN","GP   ",3510,3510
+307,"N46       ","ROLLED SLUDGE","G70            ","Rolled Sludge","RF   ",3310,3330
+309,"P43       ","ACID STAINS FROM HAP(DRIP PAN)","G70            ","Stains","RC   ",3320,3320
+310,"P44       ","WATER STAINS","G70            ","Stains","RCF  ",3310,3340
+311,"P45       ","MANDREL MARKS","G70            ","Mandrel Marks","VAR  ",9500,9500
+312,"P46       ","EDGE CRIMP FROM COLLAPSE OF SPIRALS","G70            ","Crimped Edge","ZM   ",3610,3620
+313,"P51       ","SLIPS FROM HAP","G70            ","Slips","RC   ",3320,3340
+314,"Q01       ","Abnormal Routing","G99            ","Abnormal Routing","VAR  ",0,0
+317,"R51       ","SLIPS FROM CAP","G70            ","Slips","RF   ",3310,3330
+318,"S44       ","STAINS FROM SLITTER HEAD IN FINISH LINE","G70            ","Nitrogen Stains","SL   ",4210,4320
+319,"S45       ","TRANSVERSE MARK FROM Z.M.","G70            ","Roll Mark","ZM   ",3610,3660
+322,"S53       ","DEFECT FROM SL2 (63) / SL3 BELT BRIDLE (50)","G70            ","Dents","SL   ",4320,4320
+323,"S57       ","FELT LINE SCRATCHES FROM S.L.","G70            ","Scratches","SL   ",4310,4320
+324,"T44       ","SCOTCH BRITE STAIN FROM SKIN PASS","G70            ","Stains","SKP  ",3310,3310
+325,"T51       ","SLIPS FROM FINISH LINES","G70            ","Slips","CS   ",4210,4350
+326,"U51       ","SCRATHCES FROM HAP(CAUSED BY EDGE WAVES FROM HMILL","G72            ","Slips","LC   ",2410,2410
+327,"X51       ","FRICTION SLIPS FROM NO INTERLEAVE PAPER","G70            ","Slips","VAR  ",3610,3660
+328,"Y44       ","STAINS FROM FINISHING LINE","G70            ","Stains","SL   ",4210,4320
+331,"Z01       ","BLISTERS IN GENERAL","G99            ","Blisters","VAR  ",9500,9500
+332,"Z02       ","scratch in general   with leader approval","G70            ","Scratches","VAR  ",0,0
+333,"Z03       ","WRINKLES IN GENERAL","G70            ","Wrinkles","VAR  ",9500,9500
+334,"Z11       ","GREASE STAINS FROM Z-MILL","G70            ","Stains","ZM   ",3610,3620
+337,"Z44       ","Stains in general","G70            ","Stains","VAR  ",0,0
+338,"Z45       ","roll mark in general   with leader approval","G70            ","Roll Mark","VAR  ",0,0
+339,"Z48       ","ROLLED PAPER IN GENERAL","G70            ","Rolled Paper","ZM   ",3610,3620
+340,"Z49       ","BREAK IN INTERLEAVE PAPER/PAPER CHANGE","G70            ","Paper Break","VAR  ",9500,9500
+341,"Z51       ","Digs in general    with leader approval","G70            ","Slips","VAR  ",0,0
+343,"Z64       ","chatter in general   with leader approval","G70            ","ZM Chatter","VAR  ",0,0
+344,"Z67       ","TELESCOPE","G99            ","Oscillation/Telescope","VAR  ",9500,9500
+345,"Z68       ","OSCILLATION","G99            ","Oscillation/Telescope","VAR  ",9500,9500
+346,"Z69       ","OSCILLATING TELESCOPE","G99            ","Oscillation/Telescope","VAR  ",9500,9500
+347,"Z70       ","CORRECTABLE OSCILLATION FROM HOT MILL",NULL,NULL,"VAR  ",2410,2410
+348,"Z99       ","Unknown Defect from CM,QC or  Insp Shift lead only","G99            ","Unknown Defect","VAR  ",0,0
+349,"001       ","INSPECTION FAILED TO IDENTIFY DEFECT","G99            ","Inspection Failed To Identify Defect","QA   ",0,0
+350,"002       ","INCORRECT INSPECTION STANDARD","G99            ","Incorrect Inspection Standard","QA   ",0,0
+351,"003       ","INCORRECT QUALITY CONTROL RELEASE/QC Error","G99            ","Incorrect QC Release","QA   ",0,0
+352,"004       ","INCORRECT QUALITY CONTROL STANDARD","G99            ","Incorrect QC Standard","QA   ",0,0
+353,"005       ","ERRORS, MATERIAL CONTROL","G99            ","Errors, Material Control","QA   ",0,0
+354,"006       ","ERRORS, CUSTOMER SERVICE","G99            ","Errors Customer Service","QA   ",0,0
+355,"007       ","ERRORS, OPERATIONS","G99            ","Error, Operations","QA   ",0,0
+356,"008       ","OPERATIONS DEFECTS","G99            ","Operations Defect","QA   ",0,0
+357,"009       ","UNRESOLVED","G99            ","Unresolved","QA   ",0,0
+358,"010       ","TRAFFIC ERROR","G99            ","Traffic Error","QA   ",0,0
+359,"011       ","HOT MILL ERROR","G72            ","Hot Mill Error","LC   ",0,0
+360,"020       ","DEFECT FROM CRANE","G70            ","Defect from Crane","VAR  ",0,0
+361,"021       ","DEFECT FROM LINE 3320","G70            ","3320","RC   ",0,0
+362,"022       ","DEFECT FROM LINE 3310","G70            ","3310","RF   ",0,0
+363,"023       ","DEFECT FROM LINE 3610","G70            ","3610","ZM   ",0,0
+364,"024       ","DEFECT FROM LINE 3620","G70            ","3620","ZM   ",0,0
+365,"025       ","DEFECT FROM LINE 3510","G76            ","3510","GP   ",0,0
+366,"026       ","DEFECT FROM LINE 4310","G70            ","4310","SL   ",4310,4310
+367,"027       ","DEFECT FROM LINE 4320","G70            ","4320","SL   ",4320,4320
+368,"028       ","DEFECT FROM LINE 4210","G70            ","4210","SL   ",4210,4210
+369,"029       ","DEFECT FROM LINE 4600","G70            ","4600","VAR  ",0,0
+370,"030       ","DEFECT FROM SUPPLIER","G99            ","Supplier","VAR  ",0,0
+371,"031       ","DEFECTS FROM LINE 0500","G70            ","Shipping","VAR  ",0,0
+372,"032       ","INSPECTION ERROR","G99            ","Inspection Error","QA   ",0,0
+373,"033       ","QUALITY CONTROL ERROR","G99            ","QC Error","VAR  ",0,0
+374,"034       ","OUTSIDE PROCESSOR error/MISSED BY OUTSIDE PROC","G99            ","OutProcessor Defect","VAR  ",0,0
+375,"035       ","HOT ROLLING MILL DEFECT","G72            ","Hot Mill","LC   ",0,0
+376,"101       ","Routing to other line(NOT Z-Mill) for Oscillation",NULL,NULL,"NAP  ",0,0
+377,"102       ","Routing to other line(NOT Z-Mill) for Heavy Ends",NULL,NULL,"NAP  ",0,0
+378,"103       ","Routing to other line(NOT Z-Mill) for Edge Cracks",NULL,NULL,"NAP  ",0,0
+379,"104       ","REPROCESS IN HOTAP FOR QUALITY",NULL,NULL,"NAP  ",0,0
+380,"105       ","REPROCESS IN HOTAP FOR LEADERSTRIPS,BAD ON 1ST RUN","G98            ","Reprocess for Leaderstrips","NAP  ",0,0
+381,"106       ","REPROCESS IN HOTAP FOR LEADERSTRIP,WC 61 IN 1STRUN",NULL,NULL,"NAP  ",0,0
+382,"110       ","CHANGE ROUTING DUE CHANGE IN FINAL THICKNESS@ZMILL",NULL,NULL,"NAP  ",0,0
+383,"120       ","ROUTING TO Z-MILL DUE TO POOR QUALITY AT CAP","G70            ","Abnormal Routing","NAP  ",0,0
+384,"121       ","ROUTING TO OTHER LINE,NOT ZMILL, FOR POOR QUALITY",NULL,NULL,"NAP  ",0,0
+385,"130       ","REPROCESS @ GP FOR POOR POLISH",NULL,NULL,"NAP  ",0,0
+386,"131       ","REPROCESS @ GP FOR GP STAINS",NULL,NULL,"NAP  ",0,0
+387,"140       ","ROUTING TO SL, FOR DIVISIONS TO MEET CUSTOMER REQ.","G99            ","Inspection","NAP  ",0,0
+388,"141       ","ROUTING TO SL, FOR DIVISIONS TO REMOVE DEFECT",NULL,NULL,"NAP  ",0,0
+389,"142       ","ROUTING TO SL, FOR DEFECT SAMPLE",NULL,NULL,"NAP  ",0,0
+390,"143       ","ROUTING TO SL, FOR LAB SAMPLE","G70            ","Sample for Lab","NAP  ",0,0
+391,"144       ","ROUTING TO SL, RESTENCILLING, INCORRECT 1ST RUN","G99            ","Inspection","NAP  ",0,0
+392,"145       ","ROUTING TO SL, REINSPECTION",NULL,NULL,"NAP  ",0,0
+393,"146       ","ROUTING TO SL, CUTOUT DIVISIONS FOR FURTHER PROCES",NULL,NULL,"NAP  ",0,0
+394,"147       ","ROUTING TO SL, CHANGE ID FOR FURTHER PROCESS",NULL,NULL,"NAP  ",0,0
+395,"201       ","CONE (DIFFERENT WIDTHS WITHIN THE SAME SLAB)","G71            ","Cone","AC   ",0,0
+396,"202       ","POSSIBLE TRANSITION SLAB","G71            ","MIXTURE OF STEEL WITHIN THE SAME SLAB","AC   ",0,0
+397,"203       ","POSSIBLE STEEL TYPE DIFF. ACCORDING TO X-RAY ANAL.","G71            ","Different Steel Type","AC   ",0,0
+398,"204       ","WEIGHT OF SLAB DIFFERENT THAN PROGRAMMED","G71            ","Weight Different Than Programmed","AC   ",0,0
+399,"251       ","BROKEN SLAB IN PRE-HEAT FURNACE","G72            ","Broken Slab","LC   ",0,0
+400,"252       ","DROPPED SLAB IN PRE-HEAT FURNACE","G72            ","Dropped Slab in Preheat Furnace","LC   ",0,0
+401,"253       ","WITHOUT ROLLING (RETURN TO PRE-HEAT FURNACE)","G72            ","Roll Mark","LC   ",0,0
+402,"254       ","ZONE OF SLAB WITHOUT ROLLING","G72            ","Without Rolling","LC   ",0,0
+403,"255       ","REJECTED FROM ROUGHING MILL WITH ROLLING","G72            ","Reject from Roughing Mill","LC   ",0,0
+404,"256       ","GRAZING OF THE BAND WITH THE SIDE GUIDES","G72            ","GRAZING OF THE BAND WITH THE SIDE GUIDES","LC   ",0,0
+405,"257       ","STEPPING OF THICKNESS IN THE BAND","G72            ","Irregular Thickness","LC   ",0,0
+406,"258       ","CONE FROM HOT ROLLING","G72            ","Cone","LC   ",0,0
+407,"259       ","EXCESSIVE DIFFERENCE IN WIDTH FROM HOT ROLLING","G72            ","Difference in Widths","LC   ",0,0
+408,"260       ","IRREGULAR THICKNESS FROM H.R. (WITHIN TOLERANCES)","G72            ","OOT in Thickness","LC   ",0,0
+409,"301       ","IRREGULAR POLISHING","G70            ","Poor Polish","GP   ",0,0
+410,"303       ","DIFFERENT WIDTHS IN THE BAND FROM HOTROLLING","G70            ","Difference in Widths","LC   ",0,0
+411,"304       ","IRREGULAR THICKNESS FROM C.R.","G70            ","OOT in Thickness","ZM   ",0,0
+412,"305       ","EXCESSIVE CONE (WITHOUT SLEEVE)","G70            ","Excess Cone","ZM   ",0,0
+413,"306       ","EXCESSIVE CONE (WITH SLEEVE)","G70            ","Excess Cone","ZM   ",0,0
+414,"307       ","DISPLACEMENT OF THE BAND IN THE Z.M.","G70            ","Displacement of Band","ZM   ",0,0
+415,"308       ","CUTS IN FIRST PASS ON Z.M.","G70            ","CUTS IN FIRST PASS ON Z.M.","ZM   ",0,0
+416,"309       ","CUTS IN OTHER PASSES ON Z.M.","G70            ","CUTS IN OTHER PASSES ON Z.M.","ZM   ",0,0
+417,"310       ","TWO BROKEN LEADER-STRIPS IN G.P.","G70            ","Defective Leaders","GP   ",0,0
+418,"311       ","ONE BROKEN LEADER-STRIP IN G.P.","G70            ","Broken Leader","GP   ",0,0
+419,"312       ","TWO BROKEN LEADER-STRIPS IN Z.M.","G70            ","Defective Leaders","ZM   ",0,0
+420,"313       ","ONE BROKEN LEADER-STRIP IN Z.M.","G70            ","Broken Leader","ZM   ",0,0
+421,"314       ","BROKEN BAND IN Z.M. FINAL","G70            ","Broken Band","ZM   ",0,0
+422,"315       ","BROKEN BAND IN Z.M. FINAL WITH DEFECTIVE FEET","G70            ","Broken Band","ZM   ",0,0
+423,"316       ","BROKEN BAND IN Z.M. INTERMEDIATE","G70            ","Broken Band","ZM   ",0,0
+424,"317       ","BROKEN BAND IN Z.M. INT. WITH DEFECTIVE FEET","G70            ","Broken Band","ZM   ",0,0
+425,"318       ","IRREGULAR THICKNESSES FROM HOTROLL OR BELL ANNEAL","G70            ","OOT in Thickness","LC   ",0,0
+426,"319       ","LENGTH OF COIL SCRAPPED DUE TO SHAPE PROBLEMS","G70            ","Poor Shape","ZM   ",0,0
+427,"320       ","HEAD OR TAIL NOT ROLLED DUE TO OOT IN THICKNESS HR","G70            ","OOT Thickness (Head/Tail)","LC   ",0,0
+428,"321       ","HEAD OR TAIL NOT ROLLED DUE TO CUTS",NULL,NULL,"ZM   ",0,0
+429,"322       ","HEAD OR TAIL NOT ROLLED DUE TO CENTERING ZM","G72            ","Camber","ZM   ",0,0
+430,"323       ","HEAD OR TAIL NOT ROLLED DUE TO CENTERING FROM HAP",NULL,NULL,"RC   ",0,0
+431,"402       ","ABNORMAL SPEED","G70            ","Abnormal Speed","RCF  ",0,0
+432,"403       ","Slowdown of the Line","G70            ","Abnormal Furnace Temperature","RCF  ",0,0
+433,"405       ","ZONE WITHOUT SIDETRIMMING (INDICATE CAUSE)","G70            ","Without Side Trimming","RF   ",0,0
+434,"406       ","ONE BROKEN LEADER-STRIP WELDED IN HOT A.P.","G70            ","Broken Leader","RC   ",0,0
+435,"407       ","Strip Break:  AP Lines","G70            ","Broken Band","RCF  ",0,0
+436,"408       ","TWO BROKEN LEADER-STRIPS WELDED IN HOT A.P.","G70            ","Defective Leaders","RC   ",0,0
+437,"409       ","WITHOUT ANNEALING","G70            ","Without Annealing","RCF  ",0,0
+438,"410       ","WITHOUT S.K.P.","G70            ","Without Skin Pass","RF   ",0,0
+439,"412       ","ZONE OF THE BAND WITHOUT S.K.P.","G70            ","Without Skin Pass","RF   ",0,0
+440,"413       ","ONE SHORT LEADER-STRIP WELDED AT HOT A.P.","G70            ","ONE SHORT LEADER-STRIP WELDED AT HOT A.P.","RC   ",0,0
+441,"414       ","ONE NARROW LEADER-STRIP WELDED AT HOT A.P.","G70            ","ONE NARROW LEADER-STRIP WELDED AT HOT A.P.","RC   ",0,0
+442,"415       ","TWO SHORT LEADER-STRIPS WELDED AT HOT A.P.","G70            ","Defective Leaders","RC   ",0,0
+443,"416       ","TWO NARROW LEADER-STRIPS WELDED AT HOT A.P.","G70            ","Defective Leaders","RC   ",0,0
+444,"440       ","MECHANICAL PROPERTIES OUT OF SPECIFICATIONS","G70            ","Mechanical Properties OOT","RCF  ",0,0
+445,"501       ","LACK OF PROPER REDUCTION IN S.K.P.","G70            ","Poor Skin Pass","SKP  ",0,0
+446,"601       ","POOR STACKING OF SHEETS AT C.S.","G70            ","Poor Stacking","CS   ",0,0
+447,"602       ","REDUCED WIDTH","G70            ","Reduced Width","CS   ",0,0
+448,"603       ","DIFFERENT WIDTHS BETWEEN FACES (PLASMA CUTTER)","G72            ","Difference in Widths","CS   ",0,0
+450,"701       ","BROKEN SLEEVE","G70            ","Broken Sleeve","SL   ",0,0
+451,"800       ","Strip Temperature OOT (Downcoiler)","G72            ","OOT in Temperature","LC   ",0,0
+452,"801       ","SHOT BLAST CURRENT OUT OF TOLERANCE (SPECIFY UNIT)","G99            ","Shot Blast","RF   ",0,0
+453,"802       ","HF CONCENTRATION OUT OF TOLERANCE (SPECIFY TANK)","G99            ","HF Concentration OOT","RF   ",0,0
+454,"803       ","HNO3 CONCENTRATION OUT OF TOLERANCE (SPECIFY TANK)","G99            ","Nitric Acid OOT","RF   ",0,0
+455,"804       ","METALS CONTENT ABOVE MAXIMUM (SPECIFY TANK)","G99            ","METALS CONTENT ABOVE MAXIMUM (SPECIFY TANK)","RF   ",0,0
+456,"805       ","ACID TEMPERATURE OUT OF TOLERANCE (SPECIFY TANK)","G99            ","Acid Temperature OOT","RF   ",0,0
+457,"806       ","ELECTROLYTIC CURRENT OUT OF TOL. (SPECIFY TANK)","G99            ","Pickling Current OOT","RF   ",0,0
+458,"807       ","SURFACE ROUGHNESS OUT OF TOLERANCE (POLISHED MAT.)","G99            ","OOT in Finish","GP   ",0,0
+459,"901       ","Wedge","G72            ","Wedge","VAR  ",0,0
+460,"902       ","Change of Programmed Thickness","G99            ","CHANGE OF PROGRAMMED THICKNESS","VAR  ",0,0
+461,"903       ","Stoppage or Failure of the Line","G99            ","Process Stop","RCF  ",3310,3340
+462,"904       ","Division for Stoppage or Failure of the Line","G99            ","DIVISION FOR STOPPAGE OR FAILURE OF THE LINE","RCF  ",3310,3340
+463,"905       ","Outside Coil Diameter very Large","G99            ","OD too Large","VAR  ",0,0
+464,"906       ","Poor Coiling","G99            ","Poor Coiling","VAR  ",0,0
+465,"907       ","Division for Inspection or Quality Control","G99            ","DIVISION FOR INSPECTION OR QUALITY CONTROL","VAR  ",0,0
+466,"908       ","Inside Diameter < 24","G99            ","ID less than 24 Inches","VAR  ",0,0
+467,"909       ","Sticking paper","G70            ","Sticking Paper","VAR  ",0,0
+468,"910       ","Without Two Leader-Strips","G70            ","Without Two Leaders","VAR  ",0,0
+469,"911       ","Without One Leader-Strip","G70            ","Without One Leader","VAR  ",0,0
+470,"912       ","Oval Shaped Coil","G70            ","Oval Shaped Coil","VAR  ",0,0
+471,"913       ","Very Large Inside Diameter","G70            ","ID Too Large","VAR  ",0,0
+472,"914       ","Without Test Sample","G99            ","Test Sample","VAR  ",0,0
+473,"915       ","Lack of Tension","G70            ","Lack of Tension","VAR  ",0,0
+474,"916       ","Without Side-Trimming","G70            ","Without Side Trimming","VAR  ",0,0
+475,"917       ","UnRolled Coil","G70            ","Unrolled Coil","VAR  ",0,0
+476,"918       ","Change of Faces","G70            ","Change of Face","VAR  ",0,0
+477,"919       ","Without Paper or Plastic","G70            ","W/O Paper or Plastic","VAR  ",0,0
+478,"920       ","Collapse of Spirals","G70            ","COLLAPSE OF SPIRALS","VAR  ",0,0
+479,"921       ","Very Small Coil: < 3 Tons","G70            ","Very Small Coil","VAR  ",0,0
+480,"922       ","Coil Location not known","G99            ","COIL LOCATION NOT KNOWN","VAR  ",0,0
+481,"923       ","Surface Finish Different than Programmed","G99            ","Finish Different Than Programmed","VAR  ",0,0
+482,"924       ","Lack of Plastic in Storage","G70            ","Lack of Plastic","VAR  ",0,0
+483,"925       ","Lack of Plastic in Edges and/or Width","G70            ","Lack of Plastic","VAR  ",0,0
+484,"926       ","Incorrectly Marked","G99            ","Incorrect Marking","VAR  ",0,0
+485,"927       ","Lack of Marking","G99            ","Incorrect Marking","VAR  ",0,0
+486,"928       ","Inadequate Quality","G99            ","Inadequate Quality","VAR  ",0,0
+487,"929       ","Bubbles in the Plastic","G70            ","Bubbles in Plastic","VAR  ",0,0
+488,"930       ","Displacement of the Band","G99            ","Displacement of Band","VAR  ",0,0
+489,"931       ","Broken Band for Stoppage or Failure of the Line","G99            ","Broken Band","VAR  ",0,0
+490,"932       ","Difference in Weight","G99            ","Weight Discrepancy","VAR  ",0,0
+491,"933       ","Lack of Weighing at Scale","G99            ","Coil not Weighed","VAR  ",0,0
+492,"934       ","Division for Defects in the Coil (Indicate Defect)","G99            ","DIVISION FOR DEFECTS IN THE COIL (INDICATE DEFECT)","ZM   ",0,0
+493,"935       ","Coil without Inspection (Indicate Cause)","G99            ","Coil Without Inspection","VAR  ",0,0
+494,"936       ","Inside Diameter < 30 for Black Coil","G72            ","INSIDE DIAMETER < 30 FORBLACKCOIL","LC   ",0,0
+495,"937       ","Special Markings Requested by Customer","G99            ","Special Markings","VAR  ",0,0
+496,"938       ","Poor Centering","G99            ","Poor Centering","VAR  ",0,0
+497,"939       ","Thickness Different than that shown in Prod Hist.","G99            ","Thickness Different Than Programmed","VAR  ",0,0
+498,"941       ","Incorrect Packaging","G70            ","Incorrect Packaging","VAR  ",0,0
+499,"942       ","Incorrect Material Shipped on Order","G99            ","Inc Mat'l Ship on Order","NAP  ",0,0
+500,"943       ","Double Shipment-Order Duplicated","G99            ","Double Shipment","NAP  ",0,0
+501,"944       ","Incorrect Order Information","G99            ","Incorrect Order Information","VAR  ",0,0
+502,"945       ","Under/Over Min/Max Weight Limits.","G99            ","Under/Over Min/Max Weights","NAP  ",0,0
+503,"946       ","Customer Scrap Allowance","G99            ","Scrap Allowance","VAR  ",0,0
+504,"947       ","Pits from Cold Rolling","G99            ","Pits","VAR  ",0,0
+505,"948       ","DAMAGE DURING SHIPPMENT","G99            ","Damaged During Shipment","VAR  ",0,0
+506,"949       ","INCORRECT CHEMISTRY","G99            ","Incorrect Chemistry","AC   ",0,0
+507,"950       ","NO DEFECT SEEN AT NAS","G99            ","No Defect Seen at NAS","QA   ",0,0
+508,"951       ","COILS TO BE REPARKED(DAMAGED OR INCORRECTLY PARKED",NULL,NULL,"VAR  ",0,0
+509,"952       ","BOXES TO BE REPARKED(DAMAGED OR INCORRECTLY PARKED","G70            ","BOXES TO BE REPARKED(DAMAGED OR INCORRECTLY PARKED","VAR  ",0,0
+510,"953       ","Inspector not present",NULL,NULL,"VAR  ",3500,3520
+511,"954       ","Poor Weldability","G99            ","Poor Weldability","VAR  ",0,0
+512,"955       ","Incorrect Grade Shipped","G99            ","Incorrect Grade Shipped","VAR  ",0,0
+513,"956       ","Incorrect Width Shipped","G99            ","Incorrect Width Shipped","VAR  ",0,0
+514,"957       ","Incorrect Finish Shipped","G99            ","Incorrect finish shipped","VAR  ",0,0
+515,"958       ","Incorrect Quality Shipped","G99            ","Incorrect Quality","VAR  ",0,0
+516,"959       ","Incorrect Tolerance Shipped","G99            ","Incorrect tolerance shipped","VAR  ",0,0
+517,"960       ","INCORRECT GAUGE SHIPPED","G99            ","Incorrect Gauge shipped","VAR  ",0,0
+716,"C95       ","Center Buckle 1 to 6",NULL,NULL,"LC   ",2410,2410
+518,"961       ","INCORRECT COATING-NO PVC/PVC","G99            ","Incorrect Coating-No PVC","VAR  ",0,0
+519,"962       ","INCORRECT LOADING","G99            ","Incorrect Loading","VAR  ",0,0
+520,"963       ","INCORRECT LENGTH","G99            ","Incorrect Length","VAR  ",0,0
+521,"964       ","MATERIAL FAILURE UPON FORMING","G99            ","Material failure upon forming","VAR  ",0,0
+522,"965       ","POOR PACKAGING (COILS)","G70            ","Poor Packaging (Coils)","VAR  ",0,0
+523,"966       ","POOR PACKAGING (MULTS)","G70            ","Poor Packaging-Mults","VAR  ",0,0
+524,"967       ","POOR PACKAGING (BOXES)",NULL,NULL,"VAR  ",0,0
+525,"968       ","COIL MOVED DURING ROLLING AT ZMILL",NULL,NULL,"VAR  ",0,0
+526,"969       ","POOR SHAPE - DIFFICULT TO COLD ROLL","G70            ","POOR SHAPE - DIFFICULT TO COLD ROLL","LC   ",0,0
+527,"970       ","UNSCHEDULED GAUGE CHANGE HM (ROLLING PROBLEMS)","G72            ","Unscheduled Gauge Change HM","LC   ",0,0
+528,"971       ","SCHEDULED GAUGE CHANGE HM",NULL,NULL,"LC   ",0,0
+529,"972       ","BROKEN BANDS/SPRUNG COIL","G99            ","Broken bands/Sprung Coil","VAR  ",0,0
+530,"973       ","Reject Slab",NULL,NULL,"LC   ",0,0
+531,"974       ","Reject Slab from R/M with Rolling (Scrap/Cobble)",NULL,NULL,"LC   ",0,0
+532,"975       ","Reject or Unscheduled Plate from Finishing Mill","G72            ","REJECT PLATE FROM FINISHING MILL","LC   ",0,0
+533,"976       ","Reject Coil (Scrap/Coil)",NULL,NULL,"VAR  ",0,0
+534,"977       ","INSUFFICIENT ROUGHNESS-DRAWING","G99            ","Insufficient Roughness-Drawing","ZM   ",0,0
+535,"980       ","not ran as programmed - non-programmed backoff","G99            ","Coil not Ran as Programmed","VAR  ",0,0
+536,"990       ","CHECK CHEMISTRY; MISMATCH WITH LADLE; NO ORDERS",NULL,NULL,"QA   ",0,0
+537,"991       ","MISSING CHEMISTRY",NULL,NULL,"VAR  ",0,0
+538,"994       ","Mid coil finish line inspection",NULL,NULL,"VAR  ",0,0
+539,"995       ","Poor Polish by Customer","G99            ","Poor polish by customer","VAR  ",0,0
+540,"996       ","Commercial Resolution / Traffic Resolution","G99            ","Commercial Claim","VAR  ",0,0
+541,"997       ","Non-Standard Stock","G99            ","Non-Standard Stock","QA   ",0,0
+542,"998       ","OP/INSP OUT PERFORMING OPERATION DUTIES","G99            ","NOT Suitable for Certain Customers","VAR  ",3310,3320
+543,"999       ","QC code only","G99            ","Material held for QC","VAR  ",0,0
+544,"L04       ","WRINKLES FROM SKP#2","G70            ","Wrinkles","SKP  ",4120,4120
+545,"H16       ","Partial or No Back Pass","G70            ","No/Poor Backpass","GP   ",3510,3520
+546,"B98       ","Lack of Diamonds","G72            ","Lack of Diamonds","LC   ",2410,2410
+547,"036       ","Defect FROM LINE 4120","G70            ","4120","SKP  ",4120,4120
+548,"037       ","DEFECT FROM LINE 4220","G70            ","4220","SL   ",4220,4220
+549,"S55       ","MARKS/DENTS FINISH LINE EXIT DEFLECTOR ROLL","G70            ","Dents","SL   ",4210,4340
+550,"012       ","Lab Error",NULL,NULL,"QA   ",0,0
+551,"P40       ","Standing Water-Edges:  SKP II","G70            ","Stains","SKP  ",4210,4210
+552,"993       ","Second Quality Claim","G82            ","Second Quality Claim","VAR  ",0,0
+553,"S58       ","MATERIAL RUBBING SEPERATOR RINGS (POSS DAMAGE)","G70            ","Damage edge from seperator ring","SL   ",4310,4320
+554,"900       ","Additional Programing Instructions","G99            ","Additional Programing Instructions","VAR  ",0,0
+555,"S54       ","Basket Roll Scratch-Slitter","G70            ","Scratches","SL   ",4320,4320
+557,"C69       ","Scratches from Plate Line(State Source of Scratch)","G72            ","Scratches-PMP","LC   ",2700,2750
+558,"C70       ","Beveled Edge From Plasma Cutting","G72            ","Beveled Edge","LC   ",2750,2750
+559,"B90       ","Excessive Residence Time Total - Hot Mill Furnace","G72            ","Excessive Residence Time Total - Hot Mill Furnace","LC   ",2110,2410
+560,"038       ","Defect from PMP Shop","G72            ","PMP shop","LC   ",2510,2740
+561,"013       ","Hot Mill Operations",NULL,NULL,"LC   ",0,0
+562,"A00       ","Transition Bar -- Mixed Grades (legal)","G99            ","Transition Bar","AC   ",0,0
+563,"978       ","Incorrect Sheet Count","G70            ","Incorrect Sheet Count","CS   ",4210,4220
+565,"Q44       ","Plasma Water Stain",NULL,NULL,"RC   ",2750,2750
+566,"B50       ","Do not use - replaced by C27/C29","G72            ","Scratches from Hot Rolling (Edges only )","LC   ",2410,2410
+567,"039       ","Melt Shop","G71            ","Melt Shop","AC   ",0,0
+568,"A98       ","NO TUNDISH SAMPLE TAKEN FOR CAST HEAT",NULL,NULL,"AC   ",1310,1320
+570,"A80       ","Low Superheat 15 Deg Min",NULL,NULL,"AC   ",1310,1320
+571,"A81       ","CLOG/PARTIAL CLOG of SEN","G71            ","Clog SEN","AC   ",1310,1320
+572,"A82       ","Open Pour (lanced ladle - non free open)","G99            ","Ladle Non-Free Open","AC   ",1310,1320
+573,"A83       ","Open Pour (freeze off, opened without shroud, etc)","G99            ","Open Pour","AC   ",1310,1320
+574,"A84       ","Low tundish weight, less than 12 tons","G99            ","Low Tundish Weight","AC   ",1310,1320
+575,"A85       ","Manual tundish level control",NULL,NULL,"AC   ",1310,1320
+576,"A86       ","Manual mold level control","G71            ","Manual Mold Level Control","AC   ",1310,1320
+577,"A87       ","Low casting speed, less than 0.8 m/min","G99            ","Low Casting Speed","AC   ",1310,1320
+578,"A88       ","Cast speed change, manual or > 0.1 m/min/min","G99            ","Casting Speed Change","AC   ",1310,1320
+579,"L43       ","BURNER STAINS (Comet Shaped)","G70            ","Stains","RF   ",3310,3310
+580,"C80       ","CRACKS IN DIAMONDS (TREAD PLATE)","G72            ","Cracks in Diamond","LC   ",2410,2410
+581,"205       ","ROUTING TO HRM (Bypass Grinder due to excess prog)",NULL,NULL,"AC   ",1310,1320
+582,"K58       ","STAINS/ WEAR PATTERN  FROM TRIZAK SKP2 (STREAKS)","G70            ","Stains","SKP  ",4120,4120
+583,"206       ","Tag not attatched properly (no nail)",NULL,NULL,"AC   ",1310,1320
+584,"000       ","Missing Samples - Main Lab","G99            ","Missing Sample","VAR  ",0,0
+585,"A89       ","Hole or Crack in SEN","G99            ","Hole or Crack in SEN","AC   ",1310,1320
+586,"A90       ","SEN Depth Change","G99            ","SEN Depth Change","AC   ",1310,1320
+587,"992       ","Chrome Equiv CX below 12.5 in 8xx Steel Type","G71            ","CX < 12.5 - 800 steel type","AC   ",0,0
+588,"014       ","Claim Denied by Technical","G99            ","Claim Denied by Technical","QA   ",0,0
+589,"C99       ","UNKNOWN DEFECT FROM HOT ROLLING desc in detail","G72            ","Hot Rolling Defect-Unknown","LC   ",2410,2410
+590,"B08       ","SLAB GRINDER GRAIN MARKS W/ SCALE","G72            ","Grinding Slivers","LC   ",1510,1510
+591,"C48       ","Edge waves from hot rolling, one side only","G72            ","Edge Waves-HR 1 Side","LC   ",2410,2410
+592,"015       ","Mis-Classified By Inspection","G99            ","Mis-Classified By Inspection","QA   ",0,0
+593,"040       ","Defect/Issue from Minooka","G99            ","Defect/Issue from Warehouse","VAR  ",4410,4410
+594,"S59       ","ONE EDGE MILL EDGE (EDGE MULT)","G70            ","Without Side Trimming","SL   ",4310,4320
+595,"A56       ","Step from Seqment rolls",NULL,NULL,"AC   ",1310,1320
+596,"A57       ","Rolled in Scale (Poor Descaling)",NULL,NULL,"AC   ",1310,1320
+597,"989       ","Chemistry out Matching or Customer Spec","G71            ","Slab Diverted to Plate:  Chemistry","AC   ",0,0
+598,"A70       ","No Stir","G99            ","No Stir","AC   ",1410,1420
+599,"A79       ","Ti-Wire Addition","G71            ","Ti-Wire Addition","AC   ",1410,1420
+600,"A78       ","SiCal-Wire Addition","G71            ","SiCal-Wire Addition","AC   ",1410,1420
+601,"H69       ","H64/F42 Mix Less than 80/20",NULL,NULL,"GP   ",3510,3520
+602,"016       ","Black Polish","G98            ","Black Polish Product","VAR  ",0,0
+603,"I41       ","STAIN/MARK FROM TENSION LEVELLER AP3/BAL","G70            ","Incrustations","RF   ",3330,3410
+604,"A91       ","Ca Treatment in Tundish",NULL,NULL,"AC   ",1310,1320
+605,"041       ","Defect from 3330","G70            ","3330","RF   ",3330,3330
+606,"042       ","Defect from 3630","G70            ","3630","ZM   ",3630,3630
+607,"808       ","OOT Drop Out Temperature: HM Re-Heat Furnace",NULL,NULL,"LC   ",2110,2110
+608,"A71       ","Lance used to Stir","G99            ","Lance Used","AC   ",1410,1420
+609,"A72       ","Poor Rinse(< Last 5 min, Flow >0.3, or addtns)","G99            ","Poor Rinse","AC   ",1410,1420
+610,"A73       ","LSS/LMF Scrap Addition","G99            ","Scrap Addition","AC   ",1410,1420
+611,"A74       ","LSS/LMF Bulk Alloy Addition","G99            ","Bulk Alloy Addition","AC   ",1410,1420
+612,"A92       ","Mold Level Deviations > 3mm","G99            ","Mold Level Deviation","AC   ",1310,1320
+613,"A60       ","Reblow after Reduction","G99            ","Reblow","AC   ",1210,1220
+614,"A61       ","AOD Tap Temperature OOT",NULL,NULL,"AC   ",1210,1220
+615,"A62       ","Retreat","G99            ","Retreat","AC   ",1210,1220
+616,"C27       ","LATERAL FRINGE","G72            ","Lateral Fringe","LC   ",2410,2410
+617,"F95       ","Knife Line (Cont. Mark resmbl scratches)","G70            ","Knife Mark","SL   ",0,0
+618,"981       ","SKP ROLL CHANGE",NULL,NULL,"SKP  ",0,0
+619,"F52       ","Textured Surface from Black Rolling","G70            ","Textured Surface from Black Rolling","VAR  ",0,0
+620,"979       ","UNABLE TO ENTER IN HMI",NULL,NULL,"VAR  ",0,0
+621,"A75       ","Poor Stir (<7 min)","G71            ","Lance Used to Break Slag","AC   ",1410,1420
+622,"L63       ","Anti Crimping Roll Mark SKP III (31)",NULL,NULL,"RF   ",3330,3330
+623,"A76       ","Stir Plug did not Open","G71            ","Stir Plug did not Open","AC   ",1410,1420
+625,"982       ","Progrmmed Backoff - No Physical Inspection",NULL,NULL,"VAR  ",4210,4410
+626,"A58       ","ROLL MARKS FROM CASTER SEGMENTS (REPEATING)",NULL,NULL,"AC   ",1310,1320
+627,"A59       ","OBJECTS ROLLED/TRAPPED IN SLAB (ID OBJECT IF POSS)","G99            ","Objects Trapped","AC   ",1310,1320
+628,"L05       ","Wrinkles FROM SKP #3  and  BAL (SKP#4)","G70            ","Wrinkles","SKP  ",3330,3410
+629,"985       ","Review Packaged Material for Special Instructions",NULL,NULL,"VAR  ",4600,4600
+630,"441       ","Out of Gauge Sample (Mechanial Property Testing)",NULL,NULL,"RCF  ",0,0
+631,"A77       ","LSS Spar/Lime Coolant Addition","G99            ","Spar/Lime Addition","AC   ",1410,1420
+632,"H17       ","DENT FROM CS#2","G70            ","Dents","CS   ",4220,4220
+633,"G00       ","Build up from Shear Cut",NULL,NULL,"AC   ",1320,1320
+634,"A63       ","Dummy Bar attached",NULL,NULL,"AC   ",1310,1320
+635,"G01       ","Dummy bar still attached to Billet",NULL,NULL,"AC   ",1320,1320
+636,"G02       ","COMPRESSION/BULGING FROM SHEAR CUT (MEAS IN NOTES)",NULL,NULL,"AC   ",1320,1320
+637,"050       ","Bare Spots (Lack of Alumized Coating)","G99            ","Bare Spots","QA   ",6220,6220
+638,"J60       ","Wear Pattern from Leveller CS2",NULL,NULL,"CS   ",4210,4220
+639,"888       ","Quality Check:State Reason","G99            ","Quality Check","VAR  ",0,0
+640,"899       ","Special Process Chemistry out of Specification","G71            ","Special Process Chemistry out of Spec","AC   ",1210,1420
+641,"411       ","SKP2 Check for 430 Light Ga",NULL,NULL,"RF   ",0,0
+642,"890       ","Ineligible Shipment:  QC Disposition to Follow","G99            ","Ineligible Shipment","VAR  ",0,0
+643,"889       ","Warehouse Claim","889            ","Warehouse Claim","VAR  ",0,0
+644,"A93       ","Bubbling in the Mold",NULL,NULL,"AC   ",1310,1320
+646,"986       ","Damaged during storage","G99            ","Damaged during storage (DIRT/CORROSION/HANDLING)","VAR  ",0,0
+647,"898       ","SKP inspection coil 1X per shift",NULL,NULL,"SKP  ",0,0
+648,"S60       ","ONE EDGE BUR UP & ONE EDGE BUR DOWN(MULT SIDE CUT)","G70            ","Without Side Trimming","SL   ",4310,4320
+649,"988       ","No Defects Mapped",NULL,NULL,"VAR  ",0,0
+650,"060       ","Prime DG Unusable weight due to defect solution","G99            ","Prime DG Unusable weight due to defect solution","VAR  ",0,0
+651,"061       ","Prime DG Unusable weight due to Prog/Yield","G99            ","Prime DG Unusable weight due to Prog/Yield","VAR  ",0,0
+652,"062       ","Prime DG Sidecut mult due to width","G99            ","Prime DG Sidecut mult due to width","VAR  ",0,0
+653,"063       ","Prime DG Sidecut mult due to Quality","G99            ","Prime DG Sidecut mult due to Quality","VAR  ",0,0
+654,"064       ","Prime DG Quality Solution leaves no customers","G99            ","Prime DG Quality Solution leaves no customers","VAR  ",0,0
+655,"065       ","Prime DG Claimed Rejecting further processing","G99            ","Prime DG Claimed Rejecting further processing","VAR  ",0,0
+656,"079       ","Planning:  Informative AQNS","G99            ","Planning:  Informative AQNS","VAR  ",0,0
+658,"066       ","Prime DG Reject reprocessing due to small coil","G99            ","Prime DG Reject reprocessing due to small coil","VAR  ",0,0
+659,"067       ","Prime to KK for sales/aged/melt kk (unsellable 1q)","G99            ","Prime DG Aged Inventory","VAR  ",0,0
+660,"068       ","Prime to 2Q for sales (unsellable as 1q)","G99            ","Prime DG Quality Correction","VAR  ",0,0
+661,"069       ","2Q to KK for sales (unsellable as 2q)","G99            ","2Q to KK Solution not applicable to secondary","VAR  ",0,0
+662,"070       ","2Q to KK Aged Inventory","G99            ","2Q to KK Aged Inventory","VAR  ",0,0
+663,"071       ","Prime/2Q to KK Leaderstrip,scrap/transition coil","G99            ","Prime/2Q to KK Leaderstrip,scrap/transition coil","VAR  ",0,0
+664,"B34       ","Out of Tolerance Diamonds","G72            ","Out of Tolerance Diamonds","LC   ",0,0
+665,"A94       ","Long Casting Sequence:  > 6 Heats","G99            ","Long Casting Sequence","AC   ",1310,1320
+666,"N30       ","BA Reflectivity/Clarity  :   A",NULL,NULL,"RF   ",3410,3410
+667,"N31       ","BA Reflectivity/Clarity  :   B",NULL,NULL,"RF   ",3410,3410
+668,"N32       ","BA Reflectivity/Clarity  :   C","G70            ","2BB Clarity","RF   ",3410,3410
+669,"B91       ","Excessive Residence Time In Zone-Hot Mill Furnace",NULL,NULL,"LC   ",2110,2410
+670,"B92       ","OOT Bottom Temperature - Hot Mill Furnace",NULL,NULL,"LC   ",2110,2410
+671,"B93       ","OOT Drop Out Temperature - Hot Mill Furnace","G72            ","OOT Drop Out Temperature - Hot Mill Furnace","LC   ",2110,2410
+672,"B94       ","Uniform Temperature Difference - Hot Mill Furnace","G72            ","HM Temperature Issue","LC   ",2110,2410
+674,"887       ","Quality Assurance","VAR            ","Quality Assurance","VAR  ",0,0
+675,"886       ","Trial Material","G99            ","Trial","VAR  ",0,0
+676,"A95       ","Transition Bar--Mixed Grades (illegal)","G99            ","Transition Bar","AC   ",0,0
+677,"A96       ","Abnormal Tailout (Billets)",NULL,NULL,"AC   ",0,0
+678,"F39       ","Dents caused by dirt/debris (swarf) when leveling","G70            ","Dents","VAR  ",0,0
+679,"D16       ","SCALE MARKS  - HM Origin","G70            ","Scale Marks w/ Scale","LC   ",2410,2410
+680,"B30       ","OUT OF TOLERANCE IN THICKNESS (PMP)","G72            ","OOT THICKNESS-PMP","LC   ",2510,2510
+681,"B31       ","OUT OF TOLERANCE IN LENGTH (PMP)","G72            ","OOT LENGTH-PMP","LC   ",2510,2510
+682,"A69       ","Any addition last 5 minutes (late)","G71            ","Last 5 minute Addition","AC   ",1410,1420
+683,"885       ","Approved for D/A Process",NULL,NULL,"VAR  ",8010,8010
+684,"B29       ","OUT OF TOLERANCE IN Width (PMP)","G72            ","OOT IN WIDTH (PMP)","LC   ",2510,2510
+685,"J52       ","SKP#2  Scratches/Slips/Digs","G70            ","Scratches","SKP  ",4120,4120
+686,"043       ","Defect from 3340","G70            ","4330","RC   ",3340,3340
+687,"044       ","Defect from 3640","G70            ","3640","ZM   ",3640,3640
+688,"045       ","Defect from 3650","G70            ","3650","ZM   ",3650,3650
+689,"S99       ","MARKS/DENTS FINISH LINE TENSION/FEED ROLL","G80            ","Slitter #1 Roll Mark","SL   ",4210,4340
+691,"B97       ","18 Meter Inspection:  Hot Mill Runout Table",NULL,NULL,"VAR  ",2410,2510
+692,"R37       ","ROF-STREAKY FINISH       NON-UNIFORM PATTERN","G70            ","ROF-Inconsistant Finish","VAR  ",0,0
+693,"R38       ","ROF-ANGLED SCRATCHES FROM SKP ROLL GRIND","G70            ","ROF-ANGLED SCRATCHES FROM SKP ROLL GRIND","SKP  ",0,0
+694,"R39       ","ROF-PROPELLER FROM SKP ROLL (POOR GRIND)",NULL,NULL,"SKP  ",0,0
+695,"R42       ","ROF-ROUGH FINISH (MUST NOTE RA MEASUREMENT)","G70            ","ROF - Rough Finish","SKP  ",3410,3410
+696,"R64       ","ROF-ZONE WITHOUT ROLLED ON FINISH","G70            ","ROF-w/o RO","SKP  ",0,0
+697,"R45       ","ROF-GRAIN MARKS (WILD GRAIN)","G70            ","ROF-GRAIN MARKS (WILD GRAIN)","SKP  ",3410,3410
+698,"B96       ","Plate shop inspection verification",NULL,NULL,"VAR  ",2700,2760
+700,"F28       ","Ridging / Roping - Ferritic","G70            ","Roping-Ridging","VAR  ",0,0
+701,"207       ","ROUTING TO GRD (Safety Grind)","G71            ","Safety Grind","AC   ",1310,1320
+702,"B00       ","Problem coil for 3340 due to excessive EW/CB/Cambr",NULL,NULL,"LC   ",2410,2410
+703,"H75       ","GP CHATTER (Angled/Tight)","G70            ","GP Chatter","GP   ",3510,3520
+704,"C85       ","NO EDGE WAVES",NULL,NULL,"LC   ",2410,2410
+705,"C86       ","EDGE WAVES 1 to 6",NULL,NULL,"LC   ",2410,2410
+706,"C87       ","EDGE WAVES 6 to 12",NULL,NULL,"LC   ",2410,2410
+707,"C88       ","EDGE WAVES >12 EXTREME",NULL,NULL,"LC   ",2410,2410
+708,"C90       ","NO CAMBER",NULL,NULL,"LC   ",2410,2410
+709,"C91       ","CAMBER 0 to 6",NULL,NULL,"LC   ",2410,2410
+710,"C92       ","CAMBER 6 to 12",NULL,NULL,"LC   ",2410,2410
+711,"C93       ","CAMBER >12 EXTREME",NULL,NULL,"LC   ",2410,2410
+712,"324       ","HEAD OR TAIL NOT ROLLED DUE TO CAMBER HOTMILL",NULL,NULL,"LC   ",0,0
+713,"046       ","Defect from 3520","G76            ","3520","GP   ",3520,3520
+714,"208       ","ROUTING TO GRD (Grind due to Steel Type)","G71            ","Route to Grind (Steel Type)","AC   ",1310,1320
+717,"C96       ","Center Buckle 6 to 12",NULL,NULL,"LC   ",2410,2410
+718,"C97       ","Center Buckle >12 EXTREME",NULL,NULL,"LC   ",2410,2410
+719,"H43       ","Veiny Acid Stains",NULL,NULL,"RF   ",3310,3340
+720,"072       ","Low Yield Non-st Sales Order",NULL,NULL,"VAR  ",0,0
+721,"073       ","Low Yield Due to Quality","G70            ","Low Yield due to Quality","VAR  ",0,0
+722,"074       ","Low Yield Due to MS OOT Width",NULL,NULL,"VAR  ",0,0
+723,"075       ","Low Yield Due to Finish Line Capability",NULL,NULL,"VAR  ",0,0
+724,"076       ","Low Yield MS Chemistry Issues",NULL,NULL,"VAR  ",0,0
+725,"077       ","Low Yield Mixed Grade",NULL,NULL,"VAR  ",0,0
+726,"078       ","Low Yield Other",NULL,NULL,"VAR  ",0,0
+727,"940       ","Customer Accomodation","G99            ","Customer Accomodation","VAR  ",0,0
+728,"C15       ","OSCILLATION INCLUSIONS/CLOSED/STREAKY","G71            ","Oscillation Slivers","AC   ",1310,1320
+729,"B52       ","Pits from hot rolling (general)","G72            ","Pits HR","LC   ",2410,2410
+730,"B95       ","HotMill Roll Inspection",NULL,NULL,"VAR  ",2410,2410
+731,"A97       ","No Argon to Shroud",NULL,NULL,"AC   ",1310,1320
+732,"C38       ","HotMill Finish mill pinch roll mark (60-62)EXT",NULL,NULL,"LC   ",2410,2410
+733,"051       ","Sag Lines (Running aluminum coating, like paint)",NULL,NULL,"QA   ",6220,6220
+734,"052       ","White Rust (Aluminized coil got wet)",NULL,NULL,"QA   ",6220,6220
+735,"F67       ","Tape Test Performed (footage marker fin onyl)","G70            ","Camber","VAR  ",4210,4320
+736,"DEFECT01  ","SCRATCHES",NULL,NULL,NULL,NULL,NULL
+737,"DEFECT02  ","ROLL MARK FROM HOT ROLLING (CRESCENT SHAPE)",NULL,NULL,NULL,NULL,NULL
+738,"DEFECT03  ","RESIDUAL SCALE FROM BLACK ROLLING",NULL,NULL,NULL,NULL,NULL
+739,"DEFECT04  ","SEAMS (MUST BE LESS THAN 1.5 LONG)",NULL,NULL,NULL,NULL,NULL
+740,"DEFECT05  ","LAMINATIONS STREAKY (NOT FLAKED) IN GENERAL",NULL,NULL,NULL,NULL,NULL
+741,"DEFECT06  ","TITANIUM STREAK",NULL,NULL,NULL,NULL,NULL
+742,"DEFECT07  ","TITANIUM INCLUSIONS",NULL,NULL,NULL,NULL,NULL
+743,"DEFECT08  ","TRUMPET",NULL,NULL,NULL,NULL,NULL
+744,"DEFECT09  ","CRIMPED EDGE FROM SIDE GUIDES",NULL,NULL,NULL,NULL,NULL
+745,"DEFECT10  ","DAMAGED EDGE FROM SEPERSTOR RINGS",NULL,NULL,NULL,NULL,NULL
+746,"DEFECT11  ","ROLLED SCALE",NULL,NULL,NULL,NULL,NULL
+747,"DEFECT12  ","EXCESS PICKLING",NULL,NULL,NULL,NULL,NULL
+748,"DEFECT13  ","EXCESS ANNEALING",NULL,NULL,NULL,NULL,NULL
+749,"DEFECT14  ","OUT OF TOLERANCE IN THICKNESS",NULL,NULL,NULL,NULL,NULL
+750,"DEFECT16  ","DENTS IN GENERAL",NULL,NULL,NULL,NULL,NULL
+751,"DEFECT17  ","ROUGH POLISH",NULL,NULL,NULL,NULL,NULL
+752,"DEFECT18  ","OIL STAINS",NULL,NULL,NULL,NULL,NULL
+753,"DEFECT19  ","SCRUBBER BRUSH MARKS FROM HOT/COLD AP",NULL,NULL,NULL,NULL,NULL
+754,"DEFECT20  ","HEAVY BURR ON EDGES FROM SLITTING",NULL,NULL,NULL,NULL,NULL
+755,"DEFECT21  ","NO SKINPASS AREA (GIVE REASON)",NULL,NULL,NULL,NULL,NULL
+756,"DEFECT22  ","KNIVE CHIPS OR CHATTER- Indicate cause",NULL,NULL,NULL,NULL,NULL
+757,"DEFECT23  ","LOSS OF CUT",NULL,NULL,NULL,NULL,NULL
+758,"DEFECT24  ","EDGE DAMGE FROM CRANE",NULL,NULL,NULL,NULL,NULL
+759,"DEFECT47  ","EDGE DAMAGE FROM HANDLING",NULL,NULL,NULL,NULL,NULL
+760,"DEFECT25  ","KNIVE MARK OR LINE (CONT. MARK, RESEMBLES SCRATCH)",NULL,NULL,NULL,NULL,NULL
+761,"DEFECT26  ","ACID STAINS",NULL,NULL,NULL,NULL,NULL
+762,"DEFECT27  ","ZONE WITHOUT POLISH",NULL,NULL,NULL,NULL,NULL
+763,"DEFECT28  ","CHATTER FROM THE GP LINE",NULL,NULL,NULL,NULL,NULL
+764,"DEFECT29  ","EMULSION STAINS",NULL,NULL,NULL,NULL,NULL
+765,"DEFECT30  ","SCRATCHES FROM THE COLD AP",NULL,NULL,NULL,NULL,NULL
+766,"DEFECT31  ","COOLING WRINKLES",NULL,NULL,NULL,NULL,NULL
+767,"DEFECT32  ","WORK ROLL MARKS FROM SKP #1 (106)",NULL,NULL,NULL,NULL,NULL
+768,"DEFECT33  ","WORK ROLL MARKS FROM SKP #2 (108)",NULL,NULL,NULL,NULL,NULL
+769,"DEFECT34  ","WORK ROLL MARKS FROM SKP #3 (54)",NULL,NULL,NULL,NULL,NULL
+770,"DEFECT35  ","PAPER WRINKLES",NULL,NULL,NULL,NULL,NULL
+771,"DEFECT36  ","BURNER STAINS (COMET SHAPED)",NULL,NULL,NULL,NULL,NULL
+772,"DEFECT37  ","FURNACE ROLL MARK FROM HOT/COLD AP (27-32)",NULL,NULL,NULL,NULL,NULL
+773,"DEFECT38  ","MATERIAL POSSIBLY RUBBING SEPERATOR RINGS (POSS. DAMAGE)",NULL,NULL,NULL,NULL,NULL
+774,"DEFECT39  ","ONE EDGE MILL EDGE (MULTS)",NULL,NULL,NULL,NULL,NULL
+775,"DEFECT40  ","HOLES",NULL,NULL,NULL,NULL,NULL
+776,"DEFECT41  ","WRINKLES FROM COLD ROLLING",NULL,NULL,NULL,NULL,NULL
+777,"DEFECT42  ","SCALE IN GENERAL FROM COLD ROLLING",NULL,NULL,NULL,NULL,NULL
+778,"DEFECT43  ","STAINS IN GENERAL FROM COLD ROLLING",NULL,NULL,NULL,NULL,NULL
+779,"DEFECT44  ","BREAK IN INTERLEAVE PAPER",NULL,NULL,NULL,NULL,NULL
+780,"DEFECT45  ","TELESCOPE",NULL,NULL,NULL,NULL,NULL
+781,"DEFECT46  ","OSCILLATION",NULL,NULL,NULL,NULL,NULL
+782,"DEFECT48  ","SLUDGE",NULL,NULL,NULL,NULL,NULL
+783,"DEFECT67  ","DENTS FROM FOREIGN OBJECT (REPEATING)",NULL,NULL,NULL,NULL,NULL
+784,"DEFECT49  ","Z-MILL STOP",NULL,NULL,NULL,NULL,NULL
+785,"DEFECT50  ","DRAG WIPE FELT SCRATCHES",NULL,NULL,NULL,NULL,NULL
+786,"DEFECT51  ","LAMINATIONS",NULL,NULL,NULL,NULL,NULL
+787,"DEFECT52  ","CRACKED EDGES",NULL,NULL,NULL,NULL,NULL
+788,"DEFECT53  ","LATERAL EDGE SEAMS",NULL,NULL,NULL,NULL,NULL
+789,"DEFECT54  ","EDGE WAVES",NULL,NULL,NULL,NULL,NULL
+790,"DEFECT55  ","DAMAGE FROM SLITTER HEAD",NULL,NULL,NULL,NULL,NULL
+791,"DEFECT56  ","BELT MARK FROM GP LINE",NULL,NULL,NULL,NULL,NULL
+792,"DEFECT57  ","ROLLED DIGS",NULL,NULL,NULL,NULL,NULL
+793,"DEFECT58  ","FRICTION SLIPS",NULL,NULL,NULL,NULL,NULL
+794,"DEFECT59  ","STAINS FROM BURNT DEBRIS",NULL,NULL,NULL,NULL,NULL
+795,"DEFECT60  ","ROLLED RUBBER",NULL,NULL,NULL,NULL,NULL
+796,"DEFECT61  ","DEFECT FROM SLITTER LINE",NULL,NULL,NULL,NULL,NULL
+797,"DEFECT62  ","COIL NOT RUN AS PROGRAMMED",NULL,NULL,NULL,NULL,NULL
+798,"DEFECT63  ","WRONG STENCIL MESSAGE",NULL,NULL,NULL,NULL,NULL
+799,"DEFECT64  ","GRAIN MARKS",NULL,NULL,NULL,NULL,NULL
+801,"DEFECT66  ","OVER/UNDER MIN/MAX WEIGHTS",NULL,NULL,NULL,NULL,NULL
+802,"DEFECT68  ","Burner Stains ( Clouds )",NULL,NULL,NULL,NULL,NULL
+803,"DEFECT69  ","BURNER STAINS- Comet shaped",NULL,NULL,NULL,NULL,NULL
+804,"DEFECT70  ","SLIVERS",NULL,NULL,NULL,NULL,NULL
+805,"DEFECT71  ","POOR ANNEALING",NULL,NULL,NULL,NULL,NULL
+806,"DEFECT72  ","PAPER PATTERN",NULL,NULL,NULL,NULL,NULL
+807,"DEFECT73  ","SCALE MARKS",NULL,NULL,NULL,NULL,NULL
+808,"DEFECT74  ","Tension Slips from WH Slitter Line",NULL,NULL,NULL,NULL,NULL
+809,"DEFECT75  ","NO PAPER",NULL,NULL,NULL,NULL,NULL
+810,"DEFECT76  ","STICKY PAPER",NULL,NULL,NULL,NULL,NULL
+811,"DEFECT77  ","ROLLED DIGS",NULL,NULL,NULL,NULL,NULL
+812,"DEFECT78  ","CENTER BUCKLE",NULL,NULL,NULL,NULL,NULL
+813,"DEFECT79  ","POOR SHAPE",NULL,NULL,NULL,NULL,NULL
+814,"DEFECT80  ","WATER STAINS",NULL,NULL,NULL,NULL,NULL
+815,"H42       ","Defect Mixture:  F42 & H64       (GP Head&Tail KK)",NULL,NULL,"GP   ",3500,3500
+816,"T85       ","KNIFE MARKS FRM FLYING SHEAR (box end)",NULL,NULL,"SL   ",4210,4220
+817,"080       ","Planning: Hold for Due Date",NULL,NULL,"VAR  ",0,0
+818,"B49       ","Do not use - replaced by C27/C29","G72            ","Scratches from HRM without scale (edges only)","LC   ",2410,2410
+819,"A68       ","LMF Arcing on Ferritic & PH(700's) & Duplex(900's)",NULL,NULL,"AC   ",1410,1420
+820,"081       ","Planning: Hold for QC Review-Material going to O/P",NULL,NULL,"VAR  ",0,0
+821,"A64       ","Defective Grind",NULL,NULL,"ACL  ",1510,1530
+822,"053       ","Dross / Buildup (Aluminized coil)",NULL,NULL,"QA   ",6220,6220
+823,"054       ","Roughness / Spangle (Aluminized coil)",NULL,NULL,"QA   ",6220,6220
+824,"055       ","Oiling Issue    (Aluminized coil)","G99            ","Oiling Issue","QA   ",6320,6320
+825,"Z10       ","Nisshin Material",NULL,NULL,"VAR  ",9500,9500
+826,"047       ","DEFECT FROM LINE 4330","G70            ","4330","SL   ",4330,4330
+827,"DEFECT81  ","Furnace Roll Marks from NAS Ghent 30-32 apart repeating",NULL,NULL,NULL,NULL,NULL
+828,"DEFECT82  ","Irregular Polishing",NULL,NULL,NULL,NULL,NULL
+829,"H41       ","Dried Brown Stain from Empty Pickling Tanks (2BB)","G70            ","Incrustations","RF   ",3330,3330
+830,"B54       ","Plate Shape - Edge Waves","G72            ","OOT Flatness - PMP","LC   ",2410,2410
+831,"983       ","Coil Not Ran as Prog (reprog req- Planning Only)",NULL,NULL,"VAR  ",0,0
+832,"B53       ","Plate Shape - Edge Wave on Plate",NULL,NULL,"LC   ",2410,2410
+833,"B55       ","Plate Shape - Crossbow (Width)","G72            ","PMP Crossbow Width","LC   ",2410,2410
+834,"B56       ","Plate Shape - Bowed Plate (Length)","G72            ","OOT Flatness - PMP","LC   ",2410,2410
+835,"B80       ","Extra cuts at PMP dividing shear",NULL,NULL,"LC   ",2510,2510
+836,"R36       ","ROF-BANDED FINISH        DISTINCT PATTERN","G70            ","ROF - Banded Finish","VAR  ",0,0
+837,"F29       ","Textured finish (Elephant Skin)","G70            ","Texture Finish","VAR  ",3310,4120
+838,"987       ","WH TOLLING CLAIM/NOTE DEFECT DEF 2","G99            ","WH TOLLING CLAIM/NOTE DEFECT DEF 2","VAR  ",0,0
+839,"H70       ","VIBRATION CHATTER FROM GP","G70            ","GP Chatter","GP   ",3510,3520
+840,"299       ","Heater Slab",NULL,NULL,"LC   ",0,0
+841,"082       ","Planning: Hold for QC Review-Wheeling Alum to O/P",NULL,NULL,"VAR  ",0,0
+842,"083       ","Planning: Hold for QC Final Review-Completed @ O/P","G99            ","Planning Hold","VAR  ",0,0
+843,"084       ","Planning: Hold for Waiver (List Order&Element Out)",NULL,NULL,"VAR  ",0,0
+844,"B46       ","HOT MILL WORK ROLL MARK (90) - ROPE / WORM ONLY","G72            ","HR Work Roll Mark","LC   ",3310,3410
+845,"B48       ","HOT MILL WORK ROLL MARK (90)","G72            ","HR Work Roll Mark","LC   ",2410,2410
+846,"F30       ","PAPER PATTERN  - LACKING ON EDGE",NULL,NULL,"ZM   ",3610,3650
+847,"F94       ","KNIFE MARK AP3 / BA     (CHIPS/CHATTER NOTED)","G70            ","Knife Mark","RF   ",3330,3330
+848,"H73       ","CHATTER - AP3 TENSION LEVELER","G70            ","AP3 TLV Chatter","RF   ",3330,3330
+849,"M01       ","Melt Shop Heat Program Change",NULL,NULL,"AC   ",0,0
+850,"B69       ","Multiple Loose Wraps (HM)",NULL,NULL,"LC   ",2410,2410
+851,"A65       ","Open Pour (broken ladle shroud)",NULL,NULL,"AC   ",1310,1320
+853,"B62       ","Telescope >2 to 6 (HM) OD",NULL,NULL,"LC   ",2410,2410
+854,"B63       ","Telescope greater then 6 (HM) OD",NULL,NULL,"LC   ",2410,2410
+855,"B64       ","Oscillation less then 2 (HM)",NULL,NULL,"LC   ",2410,2410
+856,"B65       ","Oscillation greater then 2 (HM)",NULL,NULL,"LC   ",2410,2410
+857,"B66       ","Oscillating Telescope (HM) > 2",NULL,NULL,"LC   ",2410,2410
+858,"B68       ","1 Loose Wrap (HM)",NULL,NULL,"LC   ",2410,2410
+859,"B60       ","Telescope >2 to 6 (HM) ID",NULL,NULL,"LC   ",2410,2410
+860,"B61       ","Telescope greater then 6 (HM) ID",NULL,NULL,"LC   ",2410,2410
+861,"COG       ","Cognex Alarm",NULL,NULL,"SKP  ",4120,4120
+862,"017       ","NO DEFECT SEEN AT NAS - BOTTOM SIDE DEFECT","G99            ","Bottom Side Defect","QA   ",0,0
+863,"L56       ","Poor Shot blast pattern (from AP2 only)",NULL,NULL,"RF   ",3320,3320
+864,"L42       ","ROLL MARK FROM HAP ENTRY (62)",NULL,NULL,"RC   ",3340,3340
+865,"ILC       ","Inspection Leader Check",NULL,NULL,"QA   ",0,0
+866,"G99       ","Billet - Hold For Mag Particle Testing",NULL,NULL,"AC   ",1320,1320
+868,"J04       ","COOLING RANDOM MARK / FISSURE (SNAKE BELLY)",NULL,NULL,"RF   ",3310,3310
+869,"C64       ","Burrs from Plasma - PMP only",NULL,NULL,"LC   ",2750,2750
+871,"V44       ","2 Tone Stripe - Wide - Consistent Across Width",NULL,NULL,"VAR  ",0,0
+872,"H30       ","Pits from GP - belt break-in",NULL,NULL,"GP   ",3510,3520
+873,"H31       ","Roll Mark from GP   (specify pitch)",NULL,NULL,"GP   ",3510,3520
+874,"MIX       ","Steel Grade Mix",NULL,NULL,"LC   ",0,0
+875,"D42       ","Rolled in Marks / Debris from scalebreaker AP4",NULL,NULL,"RC   ",3340,3340
+877,"048       ","DEFECT FROM LINE 4340",NULL,NULL,"SL   ",4340,4340
+878,"209       ","ROUTING TO GRD (PMP Grind)",NULL,NULL,"AC   ",1310,1320
+879,"Q99       ","Last of Tundish Billet",NULL,NULL,"AC   ",0,0
+880,"Q11       ","First of Tundish Billet",NULL,NULL,"AC   ",0,0
+881,"705       ","Bypass SKP2 - (Excess program or Trial)",NULL,NULL,"QA   ",0,0
+882,"MIS       ","Missing Plate Gun Reading",NULL,NULL,"LC   ",0,0
+883,"I52       ","ROLLMARK/DENT ZM FLAT ROLL(39 Z1/2/5 56 Z3/4/6)",NULL,NULL,"ZM   ",3610,3660
+884,"B58       ","Burrs from Shear - PMP only",NULL,NULL,"LC   ",2760,2760
+885,"099       ","Downgrade Writeoff from previous year",NULL,NULL,"VAR  ",0,0
+886,"BAL       ","Potential Line Issue Coil",NULL,NULL,"VAR  ",0,0
+887,"ZM6       ","ZM6 Line Scrap/Transitions",NULL,NULL,"VAR  ",0,0
+888,"B35       ","DIFFERENCE IN DIAGONALS -- PLATE SHOP only",NULL,NULL,"LC   ",0,0
+890,"K59       ","BA SKP WEAR PATTERN - STREAKS",NULL,NULL,"RF   ",3410,3410
+891,"K46       ","BA FURNACE ROLL STAIN/MARK   GRAPHITE ROLL",NULL,NULL,"RF   ",3410,3410
+892,"K48       ","BA WORK ROLL MARKS, SKP      (54)","G70            ","Rolled Paper","RF   ",3410,3410
+893,"K49       ","BA SKP DEBRIS MARKS",NULL,NULL,"RF   ",3410,3410
+894,"M49       ","RUBBER / ROLLED RUBBER FROM ZM",NULL,NULL,"ZM   ",3610,3660
+895,"D30       ","HR surface - Roughness/Uniformity   A",NULL,NULL,"LC   ",3310,3410
+896,"D31       ","HR surface - Roughness/Uniformity   B",NULL,NULL,"LC   ",3310,3410
+897,"D32       ","HR surface - Roughness/Uniformity   C",NULL,NULL,"LC   ",3310,3410
+898,"D38       ","HM WR Grind Advancement Lines (narrow/angled)",NULL,NULL,"LC   ",3310,3410
+902,"N33       ","BA Uniformity   :  Difference in Width",NULL,NULL,"RF   ",3410,3410
+903,"REJ       ","Planning Reject Tracking",NULL,NULL,"VAR  ",0,0
+904,"L54       ","ROLL MARK/SCALE BREAKER AP4 (Random pitch)",NULL,NULL,"RC   ",3340,3340
+905,"K60       ","Belt Wrap Creases from BA line",NULL,NULL,"RF   ",3410,3410
+906,"V45       ","2 Tone Stripe - Thin or Wide - Random Across Width",NULL,NULL,"ZM   ",0,0
+908,"J10       ","CRACKED EDGES from COLD Rolling",NULL,NULL,"ZM   ",3610,3660
+909,"W00       ","Grinding Wheel Change Mid-Face",NULL,NULL,"LC   ",1510,1530
+910,"BAD       ","HOLD FOR QC REVIEW (DAMAGED COILS) For IL use only",NULL,NULL,"VAR  ",0,0
+911,"R41       ","ROF-BRIGHT FINISH {HIGH GLOSS READING} GLOSS >150",NULL,NULL,"SKP  ",3410,3410
+912,"325       ","BROKEN BAND ZM DUE TO HOTMILL DEFECT",NULL,NULL,"LC   ",0,0
+913,"326       ","BROKEN BAND ZM DUE TO MS DEFECT (LAM,INC,HOLE,ETC)",NULL,NULL,"AC   ",0,0
+914,"327       ","CUTS,IRREGULAR THICKNESS,REMNC DUE TO MS CHEMISTRY",NULL,NULL,"AC   ",0,0
+915,"K65       ","BA SKP BRUSH PATTERN",NULL,NULL,"RF   ",3410,3410
+916,"G44       ","Stains from CB Line",NULL,NULL,"VAR  ",3110,3110
+917,"G45       ","Roll Marks from CB Line",NULL,NULL,"VAR  ",3110,3110
+918,"G51       ","Digs/Slips from CB Line",NULL,NULL,"RC   ",3110,3110
+919,"G57       ","Scratches from CB Line",NULL,NULL,"RC   ",3110,3110
+920,"LBC       ","Light Booth Check",NULL,NULL,"VAR  ",0,0
+921,"C37       ","HM Rolled Slip/Roll Mark - various pitch",NULL,NULL,"ACL  ",1310,2410
+922,"SLB       ","SLAB SURFACE CHECK",NULL,NULL,"MS   ",0,0
+923,"TRN       ","SLAB TREND SCAN",NULL,NULL,"MS   ",0,0
+924,"HNT       ","Head and Tail scrap - DFS use only",NULL,NULL,"QA   ",0,0
+925,"K01       ","STAINS FROM PLASTIC INSERT",NULL,NULL,"VAR  ",3310,3320
+926,"L99       ","Incomplete Heat at Last Sequence",NULL,NULL,"AC   ",1320,8010
+927,"D55       ","High Remanence / Poor Annealing - Hot Mill Source",NULL,NULL,"LC   ",2410,2410
+928,"S32       ","Out of Tolerance in Width after final trim",NULL,NULL,"VAR  ",0,0
+929,"PTC       ","PARSYTEC CHECK REQUIRED - SUSPECT COIL",NULL,NULL,"VAR  ",1310,9999
+930,"E10       ","CROWN FROM HOT ROLLING",NULL,NULL,"LC   ",2410,2410
+931,"MBO       ","Missed by Operations Inspector",NULL,NULL,"VAR  ",500,9999
+932,"MBI       ","Missed by Inspector",NULL,NULL,"QA   ",0,0
+933,"K64       ","CHATTER FROM SKP(ROLL GRINDING) ON ROF",NULL,NULL,"RF   ",3410,3410
+934,"BAQ       ","BA Appliance - Hold for QC Review",NULL,NULL,"SL   ",4320,4340
+935,"W50       ","WELD FROM PREVIOUS COIL",NULL,NULL,"VAR  ",3110,3410
+936,"049       ","DEFECT FROM LINE 4350",NULL,NULL,"SL   ",4350,4350
+937,"089       ","Low Utility Material",NULL,NULL,"VAR  ",0,0
+938,"C19       ","LAMINATIONS - Point to Point",NULL,NULL,"AC   ",1310,1310
+939,"PAP       ","PAPER ISSUE - INCOMING FROM CAP (TRACKING ONLY)",NULL,NULL,"RF   ",0,0
+940,"019       ","Defect from 3410",NULL,NULL,"RF   ",3410,3410
+941,"D52       ","ROLL MARK / SCUFF TYPE  HR TABLE ROLLS  INT FACE",NULL,NULL,"LC   ",2410,2410
